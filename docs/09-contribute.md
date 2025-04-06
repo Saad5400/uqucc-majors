@@ -2,6 +2,8 @@
 
 يمكنك الضغط على `تعديل هذه الصفحة` تحت اي صفحة للانتقال الى GitHub والتعديل علا ملفات الموقع
 
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/2UfnKmga4w8?si=fq8tMBg1rqy_zBc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## الجانب التقني
 
 - تم تطوير الموقع باستعمال اداة [Docusaurus](https://docusaurus.io/) واللي تساعد بشكل كبير في انشاء الاساس للموقع ويبقى على المطور مجرد اضافة المحتوى
