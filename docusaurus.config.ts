@@ -76,7 +76,7 @@ const config: Config = {
       title: 'تخصصات كلية الحاسبات',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.png',
+        src: 'img/favicon.png',
         href: '/docs/intro'
       },
       items: [
