@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'تخصصات كلية الحاسبات',
   tagline: 'تعرف ع تخصصات كلية الحاسبات بجامعة أم القرى',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -76,7 +76,7 @@ const config: Config = {
       title: 'تخصصات كلية الحاسبات',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.png',
         href: '/docs/intro'
       },
       items: [
@@ -95,7 +95,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       // links: [
       //   {
       //     title: 'Docs',
