@@ -6,8 +6,8 @@ sidebar_position: 10
 
 ## المنصات
 
-- مبادرة منار https://x.com/Manarinit
-- منصة الكاتو http://elcato.sb.sa/
+- [مبادرة منار](https://x.com/Manarinit)
+- [منصة الكاتو](http://elcato.sb.sa)
 
 ## الأفراد
 
