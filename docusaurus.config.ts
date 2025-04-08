@@ -87,11 +87,11 @@ const config: Config = {
         //   label: 'Tutorial',
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Saad5400/uqucis-majors',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/Saad5400/uqucis-majors',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
