@@ -138,7 +138,7 @@ const config: Config = {
       //   },
       // ],
       // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} مبادرة اختيار التخصص`,
+      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} فريق مبادرة اختيار التخصص`,
     },
     prism: {
       theme: prismThemes.github,
