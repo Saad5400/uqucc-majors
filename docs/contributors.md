@@ -38,3 +38,4 @@ sidebar_position: 9
 - الهنوف  
 - [إيوان حسن مليباري](https://x.com/ZeRo0o_Epic?t=pC7WDIvA0hVwLJ-hLghvow&s=09)  
 - [جوري الكناني](https://x.com/JoryAlkanani)  
+- [تركي الرويثي](https://x.com/i_T71)
