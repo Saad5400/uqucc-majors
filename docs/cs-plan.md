@@ -3,7 +3,7 @@ title: خطة علوم الحاسب
 sidebar_class_name: hidden
 ---
 
-# أهم المواد في تخصص علوم الحاسب الآلي [توصية 47](https://uqu.edu.sa/ccomp_csai/App/Plans?major=478&type=1&edition=47)
+## أهم المواد في تخصص علوم الحاسب الآلي ([توصية 47](https://uqu.edu.sa/ccomp_csai/App/Plans?major=478&type=1&edition=47))
 
 | المادة | الهدف |
 |  :---: | :---: |
