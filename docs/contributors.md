@@ -7,6 +7,7 @@ sidebar_position: 9
 ## الفريق المؤسس
 - قائد المبادرة: [أنس المحمادي](https://x.com/itsanas121)  
 - مطور الموقع: [سعد بتوا](https://x.com/SaadBatwa)
+- [بيسال سمكري](https://www.linkedin.com/in/بيسال-سمكري-66a92b2b8)
 - ...
 
 ## المنصات  
