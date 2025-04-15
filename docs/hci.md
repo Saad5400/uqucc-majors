@@ -67,38 +67,21 @@ sidebar_position: 7
 ## مصادر خارجية ودعم إضافي
 #### مصادر خارجية تفيدك في التخصص  
 هنا روابط مباشرة للمصادر المفيدة لتخصص HCI:
- 1. Coursera – Interaction Design Specialization (UC San Diego):
-https://www.coursera.org/specializations/interaction-design
- 2. edX – Human-Computer Interaction (Georgia Tech):
-https://www.edx.org/course/human-computer-interaction
- 3. كتاب Don’t Make Me Think – Steve Krug (ملخص ومراجعة):
-https://www.smashingmagazine.com/2013/09/book-review-dont-make-me-think/
- 4. كتاب The Design of Everyday Things – Don Norman (موقع المؤلف):
-https://www.jnd.org/dn.mss/the_design_of_everyda.html
- 5. Nielsen Norman Group – UX Articles and Research:
-https://www.nngroup.com/articles/
- 6. قناة AJ&Smart (YouTube):
-https://www.youtube.com/c/AJSmart
- 7. قناة Flux – UI/UX Design (YouTube):
-https://www.youtube.com/c/FluxWithRanSegall
- 8. Dribbble – UI/UX Inspiration:
-https://dribbble.com
- 9. Behance – Portfolio & Design Projects:
-https://www.behance.net
+
+1. [Coursera – Interaction Design Specialization (UC San Diego)](https://www.coursera.org/specializations/interaction-design)  
+2. [edX – Human-Computer Interaction (Georgia Tech)](https://www.edx.org/course/human-computer-interaction)  
+3. [كتاب Don’t Make Me Think – Steve Krug (ملخص ومراجعة)](https://www.smashingmagazine.com/2013/09/book-review-dont-make-me-think/)  
+4. [كتاب The Design of Everyday Things – Don Norman (موقع المؤلف)](https://www.jnd.org/dn.mss/the_design_of_everyda.html)  
+5. [Nielsen Norman Group – UX Articles and Research](https://www.nngroup.com/articles/)  
+6. [قناة AJ&Smart (YouTube)](https://www.youtube.com/c/AJSmart)  
+7. [قناة Flux – UI/UX Design (YouTube)](https://www.youtube.com/c/FluxWithRanSegall)  
+8. [Dribbble – UI/UX Inspiration](https://dribbble.com)  
+9. [Behance – Portfolio & Design Projects](https://www.behance.net)
 
 هنا مصادر بالعربي أو مناسبة للمبتدئين في تخصص HCI وUX/UI:
- 1. منصة إدراك – تجربة المستخدم (UX):
-دورة مجانية ومبسطة.
-https://www.edraak.org/course/course-v1:Edraak+UXUI101+2020_T1/
- 2. رواق – مدخل لتجربة المستخدم:
-شرح مبادئ وتجربة استخدام باللغة العربية.
-https://www.rwaq.org/courses/user-experience
- 3. قناة UXBERT بالعربي (يوتيوب):
-قناة متخصصة بتجربة المستخدم وواجهات الاستخدام.
-https://www.youtube.com/@UXBERT
- 4. مدونة تجربة المستخدم بالعربي:
-مقالات ومصادر مفيدة عن HCI وUX.
-https://uxarabia.org
-5. مجتمع المصممين العرب (على فيسبوك):
-لمشاركة تجارب، أدوات، وأسئلة بين المهتمين.
-https://www.facebook.com/groups/arabux
+
+1. [منصة إدراك – تجربة المستخدم (UX): دورة مجانية ومبسطة](https://www.edraak.org/course/course-v1:Edraak+UXUI101+2020_T1/)  
+2. [رواق – مدخل لتجربة المستخدم: شرح مبادئ وتجربة استخدام باللغة العربية](https://www.rwaq.org/courses/user-experience)  
+3. [قناة UXBERT بالعربي (يوتيوب): قناة متخصصة بتجربة المستخدم وواجهات الاستخدام](https://www.youtube.com/@UXBERT)  
+4. [مدونة تجربة المستخدم بالعربي: مقالات ومصادر مفيدة عن HCI وUX](https://uxarabia.org)  
+5. [مجتمع المصممين العرب (على فيسبوك): لمشاركة تجارب، أدوات، وأسئلة بين المهتمين](https://www.facebook.com/groups/arabux)
