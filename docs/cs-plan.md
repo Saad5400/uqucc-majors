@@ -1,4 +1,5 @@
 ---
+title: خطة علوم الحاسب
 sidebar_class_name: hidden
 ---
 
