@@ -1,6 +1,6 @@
 ---
-title: "خطة العلوم"
-hide: true
+sidebar_position: -1
+sidebar_class_name: hidden
 ---
 
 # أهم المواد في تخصص علوم الحاسب الآلي
