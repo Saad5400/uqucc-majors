@@ -1,6 +1,6 @@
 ---
 title: خطة علوم الحاسب
-sidebar_position: 3
+sidebar_position: -1
 sidebar_class_name: hidden
 ---
 
