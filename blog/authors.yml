@@ -23,7 +23,13 @@
 #     newsletter: https://thisweekinreact.com
 
 abdulmajeed:
-  name: عبدالمجيد
-  title: عبدالمجيد بكر خريج علوم حاسب
+  name: عبدالمجيد بكر
+  title: خريج علوم حاسب
   url: https://x.com/Ji_1o
   image_url: https://pbs.twimg.com/profile_images/1895551507455528960/QE3qkxmq_400x400.jpg
+
+elcato:
+  name: الكاتو
+  title: هندسة برمجيات بالسنة الثالثة
+  url: https://elcato.sb.sa
+  image_url: https://elcato.sb.sa/favicon.png
