@@ -8,7 +8,10 @@ sidebar_position: 9
 - قائد المبادرة: [أنس المحمادي](https://x.com/itsanas121)  
 - مطور الموقع: [سعد بتوا](https://x.com/SaadBatwa)
 
-- ...
+## المنصات  
+- [منصة الكاتو](http://elcato.sb.sa)  
+- [مبادرة منار](https://x.com/Manarinit)
+
 
 # مسؤولي التخصصات
 ### علوم الحاسب الآلي:
@@ -19,7 +22,7 @@ sidebar_position: 9
 ### هندسة البرمجيات:
 - [شادي رزق](https://x.com/shadiswe?s=21)
 - دانه الرحيلي
--
+- [سعد بتوا](https://x.com/SaadBatwa)
 -
 
 ### هندسة الحاسب والشبكات:
@@ -40,9 +43,7 @@ sidebar_position: 9
 
 - ...
 
-## المنصات  
-- [منصة الكاتو](http://elcato.sb.sa)  
-- [مبادرة منار](https://x.com/Manarinit)
+
   
 ## المشاركون في الاستبيانات  
 - أمين أيمن بارقعان  
