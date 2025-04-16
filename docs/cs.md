@@ -120,7 +120,7 @@ sidebar_position: 2
 
 ## تجارب ونصائح عملية
 #### تجربة الطلاب  
-[تجربة عبدالمجيد بكر - خريج دفعة 43](https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakur)
+[تجربة عبدالمجيد بكر - خريج دفعة 43](https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr)
 
 [تجربة رهف مراد - خريجة دفعة 42](https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad)
 
