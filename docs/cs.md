@@ -59,7 +59,9 @@ sidebar_position: 2
 
 ## تجارب ونصائح عملية
 #### تجربة الطلاب  
-[تجربة عبدالمجيد بكر - خريج دفعة 43, مهتم بالبرمجة وإدارة المشاريع](https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakur)
+[تجربة عبدالمجيد بكر - خريج دفعة 43](https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakur)
+[تجربة رهف مراد - خريجة دفعة 42](https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad)
+
 
 
 تجارب عملية وشهادات من دفعات سابقة (مثلاً دفعة ٤٤ وما قبل) لمساعدة الطالب على فهم واقع التخصص.
