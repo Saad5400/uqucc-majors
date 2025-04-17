@@ -24,4 +24,4 @@ sidebar_position: 1
 
 ## مقارنة سريعة
 
-<iframe width="100%" height="auto" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzhB_RCkzf960nSu-NcmHhFLEpNRUlJBTgahOr4fr2RDRo1TWE9P0a0y2Cum-PAN2tTUuL4VCb6xjr/pubchart?oid=139550442&amp;format=interactive"></iframe>
+<iframe width="100%" height="auto" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzhB_RCkzf960nSu-NcmHhFLEpNRUlJBTgahOr4fr2RDRo1TWE9P0a0y2Cum-PAN2tTUuL4VCb6xjr/pubchart?oid=139550442&amp;format=image"></iframe>
