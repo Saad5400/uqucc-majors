@@ -124,6 +124,8 @@ sidebar_position: 2
 
 [تجربة رهف مراد - خريجة دفعة 42](https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad)
 
+[تجربة حميدة خان - خريجة دفعة 43](https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan)
+
 #### معلومات مغلوطة عن التخصص وتصحيحها  
 - لازم تتعلم لغات برمجة كثيرة وفي وقت قصير:
 
