@@ -23,7 +23,8 @@ sidebar_position: 9
 - [شادي رزق](https://x.com/shadiswe?s=21)
 - دانه الرحيلي
 - [سعد بتوا](https://x.com/SaadBatwa)
--
+- لينا نجدي
+- رغد آل مسعود
 
 ### هندسة الحاسب والشبكات:
 - 
