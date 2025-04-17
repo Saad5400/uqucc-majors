@@ -119,8 +119,7 @@ sidebar_position: 4
 
 ## تجارب ونصائح عملية
 #### تجربة الطلاب  
-تجارب عملية وشهادات من دفعات سابقة (مثلاً دفعة ٤٤ وما قبل) لمساعدة الطالب على فهم واقع التخصص.
-
+- [تجربة الكاتو طالب هندسة برمجيات بدفعة 44](https://uqucc-majors.sb.sa/blog/se-exp/elcato)
 #### معلومات مغلوطة عن التخصص وتصحيحها  
 توضيح التصورات الخاطئة وتصحيح المفاهيم الشائعة.
 
@@ -133,19 +132,14 @@ sidebar_position: 4
 
 المجانية:
 
-YouTube 
-
-FreeCodeCamp
-
-Stack over flow
-
-Reddit
+- YouTube 
+- FreeCodeCamp
+- Stack over flow
+- Reddit
 
 مدفوعة:
 
-Udemy
-
-codeacademy
-
-Coursera  
+- Udemy
+- codeacademy
+- Coursera  
 
