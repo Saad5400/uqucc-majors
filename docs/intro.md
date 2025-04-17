@@ -24,13 +24,4 @@ sidebar_position: 1
 
 ## مقارنة سريعة
 
-<div style="overflow-x: auto; white-space: nowrap; max-width: 100%;">
-  <iframe 
-    width="814" 
-    height="360" 
-    seamless 
-    frameborder="0" 
-    scrolling="no"
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzhB_RCkzf960nSu-NcmHhFLEpNRUlJBTgahOr4fr2RDRo1TWE9P0a0y2Cum-PAN2tTUuL4VCb6xjr/pubchart?oid=139550442&amp;format=image">
-  </iframe>
-</div>
+<iframe width="100%" height="360" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzhB_RCkzf960nSu-NcmHhFLEpNRUlJBTgahOr4fr2RDRo1TWE9P0a0y2Cum-PAN2tTUuL4VCb6xjr/pubchart?oid=139550442&amp;format=interactive"></iframe>
