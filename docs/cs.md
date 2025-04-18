@@ -203,7 +203,7 @@ sidebar_position: 2
 
 - قائمة تشغيل [JavaScript](https://youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&feature=shared)
 
-5. [كنز طلاب الحاسب](https://github.com/MjeedBakr/Student-Success-Kit?)
+5. [كنز طلاب الحاسب](https://github.com/MjeedBakr/Student-Success-Kit)
 
 طبعًا في مصادر كثيرة أخرى غير القنوات، وهذا واحد منها. "كنز طلاب الحاسب" يحتوي على أهم المراجع التي ستساعدك في رحلتك، مثل الأدوات التي ستحتاجها، القنوات التعليمية، النصائح، والمزيد.
 
