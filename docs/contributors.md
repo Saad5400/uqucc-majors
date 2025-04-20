@@ -25,6 +25,7 @@ sidebar_position: 9
 - [سعد بتوا](https://x.com/SaadBatwa)
 - لينا نجدي
 - رغد آل مسعود
+- [رندا الغامدي](https://x.com/rqumx/)
 
 ### هندسة الحاسب والشبكات:
 - 
