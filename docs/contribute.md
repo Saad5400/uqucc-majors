@@ -14,7 +14,7 @@ sidebar_class_name: hidden
 - تم تطوير الموقع باستعمال اداة [Docusaurus](https://docusaurus.io/) واللي تساعد بشكل كبير في انشاء الاساس للموقع ويبقى على المطور مجرد اضافة المحتوى
 - تستعمل ملفات md او Markdown بشكل اساسي لكتابة المحتوى وتوفر هذه الملفات امكانية تنسسيق النصوص بطريقة بسيطة وفعالة
 
-### أمثلة
+## أمثلة
 
 - كل امكانيات الMarkdown في منشور واحد: https://gist.github.com/allysonsilva/85fff14a22bbdf55485be947566cc09e
 - خصائص اضافية من Docusaurus: https://docusaurus.io/docs/markdown-features/tabs
