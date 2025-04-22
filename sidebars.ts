@@ -14,7 +14,7 @@ const sidebars: SidebarsConfig = {
             {
               type: 'link',
               label: 'عبدالمجيد بكر - خريج علوم الحاسب الآلي',
-              href: 'https://example.com/blog/abdulmajeed-bakr', 
+              href: 'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr, 
             },
           ],
         },
