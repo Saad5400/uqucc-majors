@@ -59,12 +59,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
            onUntruncatedBlogPosts: 'warn',
            blogSidebarTitle: 'آخر المقالات',
            blogSidebarCount: 'ALL',
-           categories: [
-            {
-              name: 'علوم الحاسب الآلي',
-            },
-          ],
-        },
+         },
          theme: {
            customCss: './src/css/custom.css',
          },
