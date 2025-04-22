@@ -57,7 +57,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          blogSidebarTitle: 'All posts',
+          blogSidebarTitle: 'آخر المقالات',
           blogSidebarCount: 'ALL',
         },
         theme: {
