@@ -8,18 +8,43 @@ const sidebars: SidebarsConfig = {
   blogSidebar: [
     {
       type: 'category',
-      label: 'علوم الحاسب',
+      label: 'علوم الحاسب الآلي',
       items: [
         {
-          type: 'category',
-          label: 'تجارب الطلاب في علوم الحاسب',
-          items: [
-            {
-              type: 'link',
-              label: 'تجربة عبدالمجيد',
-              href: 'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr', 
-            },
-          ],
+          type: 'link',
+          label: 'تجربة عبدالمجيد بكر - خريجة علوم الحاسب الآلي',
+          href: 'https://example.com/blog/abdulmajeed-bakr', 
+        },
+        {
+          type: 'link',
+          label: 'تجربة حميدة خان - خريجة علوم الحاسب الآلي',
+          href: 'https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan',
+        },
+        {
+          type: 'link',
+          label: 'تجربة رهف مراد - خريجة علوم الحاسب الآلي',
+          href: 'https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'هندسة البرمجيات',
+      items: [
+        {
+          type: 'link',
+          label: 'تجربة لينا نجدي - هندسة البرمجيات',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/Lina',
+        },
+        {
+          type: 'link',
+          label: 'تجربة شادي رزق - هندسة البرمجيات',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/Shadi',
+        },
+        {
+          type: 'link',
+          label: 'تجربة الكاتو - هندسة البرمجيات',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/elcato',
         },
       ],
     },
