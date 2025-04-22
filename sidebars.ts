@@ -14,7 +14,11 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'تجارب الطلاب في علوم الحاسب',
           items: [
-            'blog/cs-exp/abdulmajeed-bakr',  // تجربة عبدالمجيد 
+            {
+              type: 'link',
+              label: 'تجربة عبدالمجيد',
+              href: 'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr', 
+            },
           ],
         },
       ],
