@@ -43,6 +43,8 @@ sidebar_position: 9
 -
 
 ### تفاعل الإنسان مع الحاسب:
+
+- [خالد النافع](https://x.com/khal_x7?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [بيسال سمكري](https://www.linkedin.com/in/بيسال-سمكري-66a92b2b8)
 -
 
