@@ -43,6 +43,8 @@ const config: Config = {
             'https://github.com/Saad5400/uqucis-majors/tree/main/',
         },
         blog: {
+          blogSidebarTitle: 'كل المقالات', 
+          blogSidebarCount: 'ALL',  
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
