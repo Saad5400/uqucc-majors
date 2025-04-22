@@ -5,80 +5,20 @@ const sidebars: SidebarsConfig = {
   blogSidebar: [
     {
       type: 'category',
-      label: 'علوم الحاسب الآلي',
+      label: 'علوم الحاسب الآلي',  
       items: [
-        {
-          type: 'category',
-          label: 'تجربة عبدالمجيد بكر',
-          items: [
-            {
-              type: 'link',
-              label: 'عبدالمجيد بكر - خريج علوم الحاسب الآلي',
-              href: 'https://example.com/blog/abdulmajeed-bakr', 
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'تجربة حميدة خان',
-          items: [
-            {
-              type: 'link',
-              label: 'حميدة خان - خريجة علوم الحاسب الآلي',
-              href: 'https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan',
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'تجربة رهف مراد',
-          items: [
-            {
-              type: 'link',
-              label: 'رهف مراد - خريجة علوم الحاسب الآلي',
-              href: 'https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad',
-            },
-          ],
-        },
+        'blog/cs-exp/abdulmajeed-bakr',  // تجربة عبدالمجيد
+        'blog/cs-exp/hamida-khan',       // تجربة حميدة
+        'blog/cs-exp/rahaf-murad',       // تجربة رهف
       ],
     },
     {
       type: 'category',
-      label: 'هندسة البرمجيات',
+      label: 'هندسة البرمجيات',  
       items: [
-        {
-          type: 'category',
-          label: 'تجربة لينا نجدي',
-          items: [
-            {
-              type: 'link',
-              label: 'لينا نجدي - هندسة البرمجيات',
-              href: 'https://uqucc-majors.sb.sa/blog/se-exp/Lina',
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'تجربة شادي رزق',
-          items: [
-            {
-              type: 'link',
-              label: 'شادي رزق - هندسة البرمجيات',
-              href: 'https://uqucc-majors.sb.sa/blog/se-exp/Shadi',
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'تجربة الكاتو',
-          items: [
-            {
-              type: 'link',
-              label: 'الكاتو - هندسة البرمجيات',
-              href: 'https://uqucc-majors.sb.sa/blog/se-exp/elcato',
-            },
-          ],
-        },
+        'blog/se-exp/Lina',  // تجربة لينا
+        'blog/se-exp/Shadi', // تجربة شادي
+        'blog/se-exp/elcato',// تجربة الكاتو
       ],
     },
   ],
