@@ -47,8 +47,7 @@ const config: Config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
-            blogSidebarTitle: 'All posts',
-            blogSidebarCount: 'ALL',
+
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -58,6 +57,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
