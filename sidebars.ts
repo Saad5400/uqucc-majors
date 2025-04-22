@@ -7,18 +7,18 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'علوم الحاسب الآلي',  
       items: [
-        'blog/cs-exp/abdulmajeed-bakr',  // تجربة عبدالمجيد
-        'blog/cs-exp/hamida-khan',       // تجربة حميدة
-        'blog/cs-exp/rahaf-murad',       // تجربة رهف
+        'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr',  // تجربة عبدالمجيد
+        'https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan',       // تجربة حميدة
+        'https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad',       // تجربة رهف
       ],
     },
     {
       type: 'category',
       label: 'هندسة البرمجيات',  
       items: [
-        'blog/se-exp/Lina',  // تجربة لينا
-        'blog/se-exp/Shadi', // تجربة شادي
-        'blog/se-exp/elcato',// تجربة الكاتو
+        'https://uqucc-majors.sb.sa/blog/se-exp/Lina,  // تجربة لينا
+        'https://uqucc-majors.sb.sa/blog/se-exp/Shadi', // تجربة شادي
+        'https://uqucc-majors.sb.sa/blog/se-exp/elcato',// تجربة الكاتو
       ],
     },
   ],
