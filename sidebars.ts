@@ -7,18 +7,42 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'علوم الحاسب الآلي',  
       items: [
-        'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr',  // تجربة عبدالمجيد
-        'https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan',       // تجربة حميدة
-        'https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad',       // تجربة رهف
+        {
+          type: 'link',
+          label: 'تجربة عبدالمجيد بكر',
+          href: 'https://uqucc-majors.sb.sa/blog/cs-exp/abdulmajeed-bakr', // تجربة عبدالمجيد
+        },
+        {
+          type: 'link',
+          label: 'تجربة حميدة خان',
+          href: 'https://uqucc-majors.sb.sa/blog/cs-exp/hamida-khan', // تجربة حميدة
+        },
+        {
+          type: 'link',
+          label: 'تجربة رهف مراد',
+          href: 'https://uqucc-majors.sb.sa/blog/cs-exp/rahaf-murad', // تجربة رهف
+        },
       ],
     },
     {
       type: 'category',
       label: 'هندسة البرمجيات',  
       items: [
-        'https://uqucc-majors.sb.sa/blog/se-exp/Lina,  
-        'https://uqucc-majors.sb.sa/blog/se-exp/Shadi', 
-        'https://uqucc-majors.sb.sa/blog/se-exp/elcato',
+        {
+          type: 'link',
+          label: 'تجربة لينا نجدي',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/Lina', // تجربة لينا
+        },
+        {
+          type: 'link',
+          label: 'تجربة شادي رزق',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/Shadi', // تجربة شادي
+        },
+        {
+          type: 'link',
+          label: 'تجربة الكاتو',
+          href: 'https://uqucc-majors.sb.sa/blog/se-exp/elcato', // تجربة الكاتو
+        },
       ],
     },
   ],
