@@ -62,7 +62,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
            categories: [
             {
               name: 'علوم الحاسب الآلي',
-              path: '/blog/category/علوم-الحاسب-الآلي',
             },
           ],
         },
