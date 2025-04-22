@@ -34,6 +34,7 @@ sidebar_position: 9
 -
 
 ### الأمن السيبراني:
+- [سلمان قاري](https://x.com/salmanqari25?s=21)
 -
 -
 
