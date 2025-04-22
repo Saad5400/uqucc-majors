@@ -16,9 +16,9 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'هندسة البرمجيات',  
       items: [
-        'https://uqucc-majors.sb.sa/blog/se-exp/Lina,  // تجربة لينا
-        'https://uqucc-majors.sb.sa/blog/se-exp/Shadi', // تجربة شادي
-        'https://uqucc-majors.sb.sa/blog/se-exp/elcato',// تجربة الكاتو
+        'https://uqucc-majors.sb.sa/blog/se-exp/Lina,  
+        'https://uqucc-majors.sb.sa/blog/se-exp/Shadi', 
+        'https://uqucc-majors.sb.sa/blog/se-exp/elcato',
       ],
     },
   ],
