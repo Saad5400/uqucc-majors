@@ -47,7 +47,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
            feedOptions: {
              type: ['rss', 'atom'],
              xslt: true,
-             postsPerPage: 3,
+             postsPerPage: 4,
            },
            // Please change this to your repo.
            // Remove this to remove the "edit this page" links.
