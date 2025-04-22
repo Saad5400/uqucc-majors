@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+se:
+  label: هندسة برمجيات
+  permalink: /se
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+cs:
+  label: علوم حاسب
+  permalink: /cs
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+graduate:
+  label: خريج
+  permalink: /graduate
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+first:
+  label: دفعة 44
+  permalink: /first
+
+second:
+  label: دفعة 45
+  permalink: /second
