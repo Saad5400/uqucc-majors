@@ -1,7 +1,7 @@
 ---
 title:  تجربة عبدالمجيد بكر خريج علوم الحاسب الآلي
 authors: [abdulmajeed]
-tags: [cs]
+tags: [cs, graduate]
 ---
 
 **1. إيش كان سبب دخولك لعلوم الحاسب؟**
