@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'تجارب الطلاب في علوم الحاسب',
           items: [
-            'blog/abdulmajeed-bakr',  // تجربة عبدالمجيد
+            'blog/abdulmajeed-bakr.md',  // تجربة عبدالمجيد
           ],
         },
       ],
