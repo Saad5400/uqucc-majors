@@ -1,6 +1,6 @@
 ---
 title: تجربة رهف مراد خريجة علوم الحاسب الآلي
-authors: [rahaf]
+authors: [rahaf-murad]
 tags: [cs, graduate]
 ---
 **1. إيش كان سبب دخولك لعلوم الحاسب؟**

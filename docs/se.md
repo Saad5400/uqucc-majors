@@ -85,8 +85,8 @@ sidebar_position: 4
 ## تجارب ونصائح عملية
 ### تجربة الطلاب  
 - [تجربة الكاتو طالب هندسة برمجيات بدفعة 44](https://uqucc-majors.sb.sa/blog/se-exp/elcato)
-- [تجربة لينا نجدي طالبة هندسة برمجيات بدفعة 45](https://uqucc-majors.sb.sa/blog/se-exp/Lina)
-- [تجربة شادي رزق  طالب هندسة برمجيات بدفعة 45](https://uqucc-majors.sb.sa/blog/se-exp/Shadi)
+- [تجربة لينا نجدي طالبة هندسة برمجيات بدفعة 45](https://uqucc-majors.sb.sa/blog/se-exp/lina-najdi)
+- [تجربة شادي رزق  طالب هندسة برمجيات بدفعة 45](https://uqucc-majors.sb.sa/blog/se-exp/shadi)
 ### معلومات مغلوطة عن التخصص وتصحيحها  
 - *هندسة البرمجيات من مسماه يدل على انه برمجة*
 

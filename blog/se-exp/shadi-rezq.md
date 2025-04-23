@@ -1,6 +1,6 @@
 ---
 title: تجربة شادي رزق طالب هندسة برمجيات بالسنة الثانية
-authors: [Shadi]
+authors: [shadi-rezq]
 tags: [se, second]
 ---
 

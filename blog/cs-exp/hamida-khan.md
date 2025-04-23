@@ -1,6 +1,6 @@
 ---
 title:  تجربة حميدة خان خريجة علوم الحاسب الآلي
-authors: [hamida]
+authors: [hamida-khan]
 tags: [cs, graduate]
 ---
 
