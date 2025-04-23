@@ -32,6 +32,13 @@ const config: Config = {
   },
 
   themeConfig: {
+    navbar: {
+      title: 'تخصصات كلية الحاسبات',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/favicon.png',
+      },
+    },
     blog: {
       sidebar: {
         groupByYear: false,
