@@ -37,23 +37,17 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Saad5400/uqucis-majors/tree/main/',
+          editUrl: 'https://github.com/Saad5400/uqucis-majors/tree/main/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ['rss', 'atom', 'json'],
             xslt: true,
           },
           postsPerPage: 'ALL',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Saad5400/uqucis-majors/tree/main/',
-          // Useful options to enforce blogging best practices
+          editUrl: 'https://github.com/Saad5400/uqucis-majors/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'warn',
