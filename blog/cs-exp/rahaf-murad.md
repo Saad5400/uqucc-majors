@@ -1,5 +1,5 @@
 ---
-title: تجربة رهف مراد
+title: تجربة رهف مراد - خريجة علوم الحاسب الآلي
 authors:
   name: رهف مراد
   url: https://x.com/_irahaf22
