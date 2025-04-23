@@ -34,9 +34,6 @@ function BlogSidebarDesktop({sidebar}: Props) {
           message: 'Blog recent posts navigation',
           description: 'The ARIA label for recent posts in the blog sidebar',
         })}>
-        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
-          {sidebar.title}
-        </div>
         <BlogSidebarContent
           items={items}
           ListComponent={ListComponent}

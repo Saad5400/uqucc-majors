@@ -1,8 +1,8 @@
-import React, {memo, type ReactNode} from 'react';
-import {useThemeConfig} from '@docusaurus/theme-common';
-import {groupBlogSidebarItemsByYear} from '@docusaurus/plugin-content-blog/client';
+import React, { memo, type ReactNode } from 'react';
+import { useThemeConfig } from '@docusaurus/theme-common';
+import { groupBlogSidebarItemsByYear, useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import Heading from '@theme/Heading';
-import type {Props} from '@theme/BlogSidebar/Content';
+import type { Props } from '@theme/BlogSidebar/Content';
 
 function BlogSidebarYearGroup({
   year,
@@ -28,26 +28,64 @@ function BlogSidebarContent({
   yearGroupHeadingClassName,
   ListComponent,
 }: Props): ReactNode {
-  const themeConfig = useThemeConfig();
-  if (themeConfig.blog.sidebar.groupByYear) {
-    
-    const itemsByYear = groupBlogSidebarItemsByYear(items);
-    
-    return (
-      <>
-        {itemsByYear.map(([year, yearItems]) => (
+
+  const itemsByYear: any[] = [
+    ['علوم الحاسب', []],
+    ['هندسة البرمجيات', []],
+    ['هندسة الحاسب', []],
+    ['الذكاء الاصطناعي', []],
+    ['تفاعل الانسان مع الحاسب', []],
+    ['علم البيانات', []],
+    ['الأمن السيبراني', []],
+  ];
+
+  items.forEach((item) => {
+    const folder = item.permalink.split('/')[2];
+    switch (folder) {
+      case 'cs-exp':
+        itemsByYear[0][1].push(item);
+        break;
+      case 'se-exp':
+        itemsByYear[1][1].push(item);
+        break;
+      case 'ce-exp':
+        itemsByYear[2][1].push(item);
+        break;
+      case 'ai-exp':
+        itemsByYear[3][1].push(item);
+        break;
+      case 'hci-exp':
+        itemsByYear[4][1].push(item);
+        break;
+      case 'ds-exp':
+        itemsByYear[5][1].push(item);
+        break;
+      case 'sec-exp':
+        itemsByYear[6][1].push(item);
+        break;
+    }
+  });
+
+
+  return (
+    <>
+      {itemsByYear.map(([year, yearItems]) => {
+
+        if (yearItems.length === 0) {
+          return null;
+        }
+
+        return (
           <BlogSidebarYearGroup
             key={year}
             year={year}
             yearGroupHeadingClassName={yearGroupHeadingClassName}>
             <ListComponent items={yearItems} />
           </BlogSidebarYearGroup>
-        ))}
-      </>
-    );
-  } else {
-    return <ListComponent items={items} />;
-  }
+        );
+      })}
+    </>
+  );
 }
 
 export default memo(BlogSidebarContent);
