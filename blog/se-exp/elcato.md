@@ -4,7 +4,7 @@ authors:
   name: الكاتو
   url: https://elcato.sb.sa
   image_url: https://elcato.sb.sa/favicon.png
-tags: [se, first]
+tags: [se, 44]
 ---
 
 باتكلم عن تجربتي الشخصية مع تخصص هندسة البرمجيات كطالب بدفعة 44 وباقيله اقل من 10 مواد على التخرج

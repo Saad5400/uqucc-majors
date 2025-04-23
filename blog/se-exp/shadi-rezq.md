@@ -4,7 +4,7 @@ authors:
   name: شادي رزق
   url: https://x.com/shadiswe?s=21
   image_url: https://pbs.twimg.com/profile_images/1901025200876957696/WxFFn78d_400x400.jpg
-tags: [se, second]
+tags: [se, 45]
 ---
 
 بسم الله، انا اخوكم شادي رزق طالب هندسة برمجيات من دفعة ٤٥
