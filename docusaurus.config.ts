@@ -31,6 +31,14 @@ const config: Config = {
     locales: ['ar'],
   },
 
+  themeConfig: {
+    blog: {
+      sidebar: {
+        groupByYear: false,
+      },
+    },
+  },
+
   presets: [
     [
       'classic',
