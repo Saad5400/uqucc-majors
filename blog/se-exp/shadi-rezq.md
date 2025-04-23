@@ -1,6 +1,9 @@
 ---
 title: تجربة شادي رزق
-authors: [shadi-rezq]
+authors:
+  name: شادي رزق
+  url: https://x.com/shadiswe?s=21
+  image_url: https://pbs.twimg.com/profile_images/1901025200876957696/WxFFn78d_400x400.jpg
 tags: [se, second]
 ---
 

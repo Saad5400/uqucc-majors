@@ -1,6 +1,8 @@
 ---
 title: تجربة بيسال سمكري
-authors: [bessal-samakri]
+authors:
+  name: بيسال سمكري 
+  image_url: https://i.imgur.com/w45ix2b.png
 tags: [hci, second]
 ---
 

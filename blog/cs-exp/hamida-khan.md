@@ -1,6 +1,9 @@
 ---
 title:  تجربة حميدة خان
-authors: [hamida-khan]
+authors:
+  name: حميدة خان
+  url: https://x.com/its7mida
+  image_url: https://pbs.twimg.com/profile_images/1881686503790686208/d_bbkpO9_400x400.jpg
 tags: [cs, graduate]
 ---
 

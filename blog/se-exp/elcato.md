@@ -1,6 +1,9 @@
 ---
 title: تجربة الكاتو
-authors: [elcato]
+authors:
+  name: الكاتو
+  url: https://elcato.sb.sa
+  image_url: https://elcato.sb.sa/favicon.png
 tags: [se, first]
 ---
 
