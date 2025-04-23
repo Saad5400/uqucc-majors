@@ -1,5 +1,5 @@
 ---
-title:  تجربة حميدة خان
+title:  تجربة حميدة خان - خريجة علوم الحاسب الآلي
 authors:
   name: حميدة خان
   url: https://x.com/its7mida
