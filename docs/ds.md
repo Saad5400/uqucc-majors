@@ -276,34 +276,26 @@ sidebar_position: 6
 
 #### منصات عربية
 
-- **منصة سطر – مسار علم البيانات والذكاء الاصطناعي**  
-  [رابط المسار](https://satr.codes/paths/data-science-and-ai)
+- [**منصة سطر – مسار علم البيانات والذكاء الاصطناعي**](https://satr.codes/paths/data-science-and-ai)
 
 #### منصات عالمية ودورات متخصصة
 
-- **Python Data Scientist – INE**  
-  [رابط الدورة](https://my.ine.com/DataScience/learning-paths/1145995e-2db9-4b93-a0f3-5607887aba6b/python-data-scientist)
+- [**Python Data Scientist – INE**](https://my.ine.com/DataScience/learning-paths/1145995e-2db9-4b93-a0f3-5607887aba6b/python-data-scientist)
 
-- **Power BI 101 – Microsoft**  
-  [رابط الدورة](https://learn.microsoft.com/en-us/training/modules/get-started-power-bi/)
+- [**Power BI 101 – Microsoft**](https://learn.microsoft.com/en-us/training/modules/get-started-power-bi/)
 
-- **Design Databases with PostgreSQL – Coursera**  
-  [رابط الدورة](https://www.coursera.org/learn/database-management)
+- [**Design Databases with PostgreSQL – Coursera**](https://www.coursera.org/learn/database-management)
 
-- **Python Data Scientist Track – DataCamp**  
-  [رابط المسار](https://www.datacamp.com/tracks/data-scientist-with-python)
+- [**Python Data Scientist Track – DataCamp**](https://www.datacamp.com/tracks/data-scientist-with-python)
 
-- **Google Data Analytics Certificate – Coursera**  
-  [رابط الشهادة](https://www.coursera.org/professional-certificates/google-data-analytics)
+- [**Google Data Analytics Certificate – Coursera**](https://www.coursera.org/professional-certificates/google-data-analytics)
 
-- **Microsoft Power BI Analyst Certificate – Coursera**  
-  [رابط الشهادة](https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst)
+- [**Microsoft Power BI Analyst Certificate – Coursera**](https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst)
 
-- **IBM Data Analyst Certificate – Coursera**  
-  [رابط الشهادة](https://www.coursera.org/professional-certificates/ibm-data-analyst)
+- [**IBM Data Analyst Certificate – Coursera**](https://www.coursera.org/professional-certificates/ibm-data-analyst)
 
-- **IBM Data Science Certificate – Coursera**  
-  [رابط الشهادة](https://www.coursera.org/professional-certificates/ibm-data-science)
+- [**IBM Data Science Certificate – Coursera**](https://www.coursera.org/professional-certificates/ibm-data-science)
+
 
 #### كتب موصى بها
 
