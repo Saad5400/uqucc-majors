@@ -388,8 +388,11 @@ __________
 - خلك فضولي، اسأل جرب، واختبر أفكارك .
 - خلك دائما قريب من المستخدمين، اسمع لهم لأنو هدفك النهائي تحسن تجربتهم.
 
-## مصادر خارجية ودعم إضافي
-### روابط مباشرة للمصادر المفيدة لتخصص HCI:
+## دعم إضافي
+
+### مصادر خارجية
+
+#### بالإنجليزي:
 
 1. [Coursera – Interaction Design Specialization (UC San Diego)](https://www.coursera.org/specializations/interaction-design)  
 2. [edX – Human-Computer Interaction (Georgia Tech)](https://www.edx.org/course/human-computer-interaction)  
@@ -401,7 +404,7 @@ __________
 8. [Dribbble – UI/UX Inspiration](https://dribbble.com)  
 9. [Behance – Portfolio & Design Projects](https://www.behance.net)
 
-### مصادر بالعربي أو مناسبة للمبتدئين في تخصص HCI وUX/UI:
+#### بالعربي:
 
 1. [منصة إدراك – تجربة المستخدم (UX): دورة مجانية ومبسطة](https://www.edraak.org/course/course-v1:Edraak+UXUI101+2020_T1/)  
 2. [رواق – مدخل لتجربة المستخدم: شرح مبادئ وتجربة استخدام باللغة العربية](https://www.rwaq.org/courses/user-experience)  
