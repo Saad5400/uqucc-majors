@@ -1,5 +1,5 @@
 ---
-title:  تجربة عبدالمجيد بكر خريج علوم الحاسب الآلي
+title:  تجربة عبدالمجيد بكر
 authors: [abdulmajeed-bakr]
 tags: [cs, graduate]
 ---

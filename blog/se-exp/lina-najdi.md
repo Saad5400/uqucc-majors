@@ -1,5 +1,5 @@
 ---
-title: تجربة لينا نجدي هندسة برمجيات بالسنة الثانية
+title: تجربة لينا نجدي
 authors: [lina-najdi]
 tags: [se, second]
 ---

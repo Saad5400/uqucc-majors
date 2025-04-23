@@ -1,5 +1,5 @@
 ---
-title: تجربة الكاتو هندسة برمجيات بالسنة الثالثة
+title: تجربة الكاتو
 authors: [elcato]
 tags: [se, first]
 ---

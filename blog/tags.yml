@@ -6,6 +6,10 @@ cs:
   label: علوم حاسب
   permalink: /cs
 
+hci:
+  label: تفاعل الانسان مع الحاسب
+  permalink: /hci
+
 graduate:
   label: خريج
   permalink: /graduate

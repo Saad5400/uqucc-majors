@@ -1,5 +1,5 @@
 ---
-title: تجربة رهف مراد خريجة علوم الحاسب الآلي
+title: تجربة رهف مراد
 authors: [rahaf-murad]
 tags: [cs, graduate]
 ---
