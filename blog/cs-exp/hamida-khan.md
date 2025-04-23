@@ -1,5 +1,5 @@
 ---
-title:  تجربة حميدة خان - خريجة
+title:  تجربة حميدة خان - خريجة دفعة 43
 authors:
   name: حميدة خان
   url: https://x.com/its7mida
