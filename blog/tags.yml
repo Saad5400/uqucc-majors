@@ -10,6 +10,22 @@ hci:
   label: تفاعل الانسان مع الحاسب
   permalink: /hci
 
+cys:
+  label: الأمن السيبراني
+  permalink: /cys
+
+ai:
+  label: الذكاء الإصطناعي
+  permalink: /ai
+
+CNE:
+  label: هندسة الحاسب والشبكات
+  permalink: /cne
+
+DS:
+  label: علم البيانات
+  permalink: /ds
+
 graduate:
   label: خريج
   permalink: /graduate
