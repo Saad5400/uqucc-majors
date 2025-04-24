@@ -37,7 +37,7 @@ sidebar_position: 9
 
 ### الأمن السيبراني:
 - [سلمان قاري](https://x.com/salmanqari25?s=21)
--
+- [أمين بارقعان](https://x.com/v_40aj)
 -
 
 ### الذكاء الإصطناعي:
