@@ -37,7 +37,7 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/favicon.png',
-        href: '/intro',
+        href: '/',
       },
     },
     blog: {
