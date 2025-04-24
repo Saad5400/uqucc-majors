@@ -24,3 +24,8 @@
 .hidden {
   display: none;
 }
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
