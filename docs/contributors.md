@@ -20,6 +20,7 @@ sidebar_position: 9
 - بدر الياسي
 - [شهد مريِّح](https://x.com/ishhd1_?s=21)
 - [عبدالعزيز حافظ](https://x.com/CI3ZIZ)
+- [سارة المطرفي](https://x.com/swaxui?s=21)
 
 ### هندسة البرمجيات:
 - [شادي رزق](https://x.com/shadiswe?s=21)
