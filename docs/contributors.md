@@ -23,7 +23,7 @@ sidebar_position: 9
 - [سارة المطرفي](https://x.com/swaxui?s=21)
 - [نوره سعد](https://www.linkedin.com/in/noora-saad-551886270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - جمانه حسين هندي
-- ملك العتيبي
+- [ملك العتيبي](https://www.linkedin.com/in/malak-f-alotaibi-39528b2a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 ### هندسة البرمجيات:
 - [شادي رزق](https://x.com/shadiswe?s=21)
