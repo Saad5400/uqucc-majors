@@ -219,11 +219,11 @@ sidebar_position: 3
 
 • **منصة edX**:
 منصة متخصصة في مجالات عدة، من ضمنها هندسة وعمارة الحاسب:
-1. **Computer Architecture Essentials on Arm** - [رابط الدورة](https://learning.edx.org/course/course-v1:ArmEducationX+EDARMXCA.6x+3T2023/block-v1:ArmEducationX+EDARMXCA.6x+3T2023+type@sequential+block@627df4bac6d54e3f8bab7df23d021315/block-v1:ArmEducationX+EDARMXCA.6x+3T2023+type@vertical+block@8ccb4a2282604f08a9bede6451e6544f?_gl=1%2A1e5ahj8%2A_gcl_au%2ANTgxMDI5NTQwLjE3NDUwNzIwNDQ.%2A_ga%2AMTA3MDU4MTI4MS4xNzQ1MDcyMDMw%2A_ga_D3KS4KMDT0%2AMTc0NTA3MjAzMC4xLjEuMTc0NTA3MjQwMS42LjAuMA..)
+1. [Computer Architecture Essentials on Arm](https://learning.edx.org/course/course-v1:ArmEducationX+EDARMXCA.6x+3T2023/block-v1:ArmEducationX+EDARMXCA.6x+3T2023+type@sequential+block@627df4bac6d54e3f8bab7df23d021315/block-v1:ArmEducationX+EDARMXCA.6x+3T2023+type@vertical+block@8ccb4a2282604f08a9bede6451e6544f?_gl=1%2A1e5ahj8%2A_gcl_au%2ANTgxMDI5NTQwLjE3NDUwNzIwNDQ.%2A_ga%2AMTA3MDU4MTI4MS4xNzQ1MDcyMDMw%2A_ga_D3KS4KMDT0%2AMTc0NTA3MjAzMC4xLjEuMTc0NTA3MjQwMS42LjAuMA..)
 
 بحكم إننا مهندسين فلازم تكون عندنا خلفية عن الأنظمة المدمجة، فكورس **Embedded Systems Essentials with Arm** حيفيدكم:
 
-2. **Embedded Systems Essentials with Arm Professional Certificate** - [رابط الدورة](https://learning.edx.org/course/course-v1:ArmEducationX+EDARMXES.6x+3T2023/block-v1:ArmEducationX+EDARMXES.6x+3T2023+type@sequential+block@627df4bac6d54e3f8bab7df23d021315/block-v1:ArmEducationX+EDARMXES.6x+3T2023+type@vertical+block@8ccb4a2282604f08a9bede6451e6544f?_gl=1%2A1e5ahj8%2A_gcl_au%2ANTgxMDI5NTQwLjE3NDUwNzIwNDQ.%2A_ga%2AMTA3MDU4MTI4MS4xNzQ1MDcyMDMw%2A_ga_D3KS4KMDT0%2AMTc0NTA3MjAzMC4xLjEuMTc0NTA3MjQwMS42LjAuMA..)
+2. [Embedded Systems Essentials with Arm Professional Certificate](https://learning.edx.org/course/course-v1:ArmEducationX+EDARMXES.6x+3T2023/block-v1:ArmEducationX+EDARMXES.6x+3T2023+type@sequential+block@627df4bac6d54e3f8bab7df23d021315/block-v1:ArmEducationX+EDARMXES.6x+3T2023+type@vertical+block@8ccb4a2282604f08a9bede6451e6544f?_gl=1%2A1e5ahj8%2A_gcl_au%2ANTgxMDI5NTQwLjE3NDUwNzIwNDQ.%2A_ga%2AMTA3MDU4MTI4MS4xNzQ1MDcyMDMw%2A_ga_D3KS4KMDT0%2AMTc0NTA3MjAzMC4xLjEuMTc0NTA3MjQwMS42LjAuMA..)
 
 وطبعًا اليوتيوب بحر في هذا الموضوع وهذي ابرز القنوات:
 
@@ -236,7 +236,7 @@ sidebar_position: 3
 
 - [Pick parts. Build your PC. Compare and share. - PCPartPicker](https://pcpartpicker.com/)
 
-أما في مجال الشبكات:
+**أما في مجال الشبكات:**
 
 يوجد العديد من الدورات المجانية تساعدك في فهم الشبكات وتطورك فيها:
 
