@@ -66,6 +66,10 @@ sidebar_position: 3
  
  • أساسيات الشبكات وتطبيقاتها
 
+ #### بعض المشاريع اللي بتشتغل عليها:
+
+<iframe width="560" height="315" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/sRw0Oxa3ueE?si=J5OQsZ_NQ21rrUfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
  
 ### خطة التخصص  
 ![image](https://github.com/user-attachments/assets/dd9c2fa4-cba8-43cb-a998-0ca7ec6d6107)
