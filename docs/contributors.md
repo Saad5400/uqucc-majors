@@ -21,6 +21,7 @@ sidebar_position: 9
 - [شهد مريِّح](https://x.com/ishhd1_?s=21)
 - [عبدالعزيز حافظ](https://x.com/CI3ZIZ)
 - [سارة المطرفي](https://x.com/swaxui?s=21)
+- [نوره سعد](https://www.linkedin.com/in/noora-saad-551886270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 ### هندسة البرمجيات:
 - [شادي رزق](https://x.com/shadiswe?s=21)
