@@ -10,19 +10,19 @@ hci:
   label: تفاعل الانسان مع الحاسب
   permalink: /hci
 
-cys:
+sec:
   label: الأمن السيبراني
-  permalink: /cys
+  permalink: /sec
 
 ai:
   label: الذكاء الإصطناعي
   permalink: /ai
 
-CNE:
+ce:
   label: هندسة الحاسب والشبكات
-  permalink: /cne
+  permalink: /ce
 
-DS:
+ds:
   label: علم البيانات
   permalink: /ds
 
