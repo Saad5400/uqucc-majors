@@ -42,7 +42,8 @@ sidebar_position: 7
 
 (قابله لتغيير)
 
-خطتي🔒
+![Screenshot 2025-04-26 002321](https://github.com/user-attachments/assets/122d52f8-1eec-4384-a404-95680e6ccf9e)
+
 
 م 4
 - [ ] اساسيات قواعد البيانات — ٣ س
