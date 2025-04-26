@@ -47,6 +47,7 @@ sidebar_position: 9
 - [سلمان قاري](https://x.com/salmanqari25?s=21)
 - [أمين بارقعان](https://x.com/v_40aj)
 - ماهر الحربي
+- [رزان فارس](https://x.com/hackerrazan)
 
 ### الذكاء الإصطناعي:
 -
