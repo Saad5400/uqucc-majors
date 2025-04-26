@@ -42,7 +42,7 @@ sidebar_position: 10
 - [اميرة حسنين](https://x.com/n_moori?s=21)
 - [وجد حكيم](https://x.com/wi8d_9?s=21&t=OofYmsRA44QO9jWRCi1tvA)
 - [اروى عبدالقيوم](https://x.com/a137r?s=21)
-- [ماريا سعيد](+966554361289)
+- [ماريا سعيد](https://wa.me/+966554361289)
 - البتول الانديجاني
 
 
