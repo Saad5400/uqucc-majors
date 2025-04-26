@@ -39,8 +39,11 @@ sidebar_position: 10
 ### هندسة الحاسب والشبكات:
 - [نوره محمد باخيل](https://www.linkedin.com/in/noorah-bakhil-93a59b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app )
 - [ريماس حسن فرج](https://x.com/Remas_faraj24)
-- اميرة حسنين
-- وجد حكيم
+- [اميرة حسنين](https://x.com/n_moori?s=21)
+- [وجد حكيم](https://x.com/wi8d_9?s=21&t=OofYmsRA44QO9jWRCi1tvA)
+- [اروى عبدالقيوم](https://x.com/a137r?s=21)
+- [ماريا سعيد](+966554361289)
+- البتول الانديجاني
 
 
 ### الأمن السيبراني:
