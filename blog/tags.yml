@@ -18,9 +18,9 @@ ai:
   label: الذكاء الإصطناعي
   permalink: /ai
 
-ce:
+cne:
   label: هندسة الحاسب والشبكات
-  permalink: /ce
+  permalink: /cne
 
 ds:
   label: علم البيانات
