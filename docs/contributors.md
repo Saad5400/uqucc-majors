@@ -43,7 +43,7 @@ sidebar_position: 10
 - [وجد حكيم](https://x.com/wi8d_9?s=21&t=OofYmsRA44QO9jWRCi1tvA)
 - [اروى عبدالقيوم](https://x.com/a137r?s=21)
 - [ماريا سعيد](https://wa.me/+966554361289)
-- البتول الانديجاني
+- [البتول الانديجاني](https://x.com/balandejani?s=21)
 
 
 ### الأمن السيبراني:
