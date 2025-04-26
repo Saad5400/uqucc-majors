@@ -24,6 +24,7 @@ sidebar_position: 9
 - [نوره سعد](https://www.linkedin.com/in/noora-saad-551886270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - جمانه حسين هندي
 - [ملك العتيبي](https://www.linkedin.com/in/malak-f-alotaibi-39528b2a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [خالد الجمل](https://t.me/+966540712005)
 
 ### هندسة البرمجيات:
 - [شادي رزق](https://x.com/shadiswe?s=21)
