@@ -60,6 +60,10 @@ sidebar_position: 10
 
 - [خالد النافع](https://x.com/khal_x7?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [بيسال سمكري](https://www.linkedin.com/in/بيسال-سمكري-66a92b2b8)
+- [شذى مكي](https://x.com/_1uiixl?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
+- [علي طيب](https://x.com/Alawy537?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
+- [جمانة الشريف]
+
 -
 
 - ...
