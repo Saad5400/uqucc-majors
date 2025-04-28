@@ -62,7 +62,7 @@ sidebar_position: 10
 - [بيسال سمكري](https://www.linkedin.com/in/بيسال-سمكري-66a92b2b8)
 - [شذى مكي](https://x.com/_1uiixl?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [علي طيب](https://x.com/Alawy537?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
-- جمانة الشريف
+- [جمانه الشريف](https://2u.pw/jKBgg)
   
 ## المشاركون في الاستبيانات  
 - أمين أيمن بارقعان  
