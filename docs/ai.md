@@ -114,9 +114,9 @@ sidebar_position: 5
 المجال سريع التجدد، مما يتطلب منك متابعة أحدث الأبحاث والتقنيات باستمرار لتكون مميزًا فيه
 ## تجارب ونصائح عملية
 ### تجربة الطلاب  
-- [تجربة مصعب إسكندر - طالب في دفعة 44](/blog/ai-exp/musab-iskander)
-- [تجربة ليان المحمادي - طالبة في دفعة 44](/blog/ai-exp/layan-almehmadi)
-- [تجربة بروج خيمي - طالبة في دفعة 44](/blog/ai-exp/burujmk)
+- [تجربة مصعب إسكندر - طالب في دفعة 44](https://uqucc-majors.sb.sa/blog/ai-exp/musab-iskandar)
+- [تجربة ليان المحمادي - طالبة في دفعة 44](https://uqucc-majors.sb.sa/blog/ai-exp/layan-almehmadi)
+- [تجربة بروج خيمي - طالبة في دفعة 44](https://uqucc-majors.sb.sa/blog/ai-exp/burujmk)
 
 
 ### معلومات مغلوطة عن التخصص وتصحيحها  
