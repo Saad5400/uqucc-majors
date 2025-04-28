@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'تخصصات كلية الحاسبات',
-  tagline: 'تعرف ع تخصصات كلية الحاسبات بجامعة أم القرى',
+  title: 'تخصصات الحاسب',
+  tagline: 'تعرف ع تخصصات الحاسب',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -46,7 +46,7 @@ const config: Config = {
       },
     },
     footer: {
-      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصصات في كلية الحاسبات بجامعة أم القرى`,
+      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصص`,
       style: 'dark',
       links: [
         {
