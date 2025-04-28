@@ -30,6 +30,7 @@ function BlogSidebarContent({
 }: Props): ReactNode {
 
   const itemsByYear: any[] = [
+    ['منشورات عامة', []],
     ['علوم الحاسب', []],
     ['هندسة البرمجيات والشبكات', []],
     ['هندسة الحاسب', []],
@@ -37,35 +38,34 @@ function BlogSidebarContent({
     ['تفاعل الانسان مع الحاسب', []],
     ['علم البيانات', []],
     ['الأمن السيبراني', []],
-    ['منشورات عامة', []],
   ];
 
   items.forEach((item) => {
     const folder = item.permalink.split('/')[2];
     switch (folder) {
       case 'cs-exp':
-        itemsByYear[0][1].push(item);
-        break;
-      case 'se-exp':
         itemsByYear[1][1].push(item);
         break;
-      case 'cne-exp':
+      case 'se-exp':
         itemsByYear[2][1].push(item);
         break;
-      case 'ai-exp':
+      case 'cne-exp':
         itemsByYear[3][1].push(item);
         break;
-      case 'hci-exp':
+      case 'ai-exp':
         itemsByYear[4][1].push(item);
         break;
-      case 'ds-exp':
+      case 'hci-exp':
         itemsByYear[5][1].push(item);
         break;
-      case 'sec-exp':
+      case 'ds-exp':
         itemsByYear[6][1].push(item);
         break;
-      default:
+      case 'sec-exp':
         itemsByYear[7][1].push(item);
+        break;
+      default:
+        itemsByYear[0][1].push(item);
     }
   });
 

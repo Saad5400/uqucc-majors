@@ -37,3 +37,7 @@ iframe {
   border-radius: 1rem;
   border: 1px solid var(--ifm-color-primary);
 }
+
+table thead tr:first-child th:first-child {
+  width: 50%;
+}
