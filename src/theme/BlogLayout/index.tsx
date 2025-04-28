@@ -16,7 +16,7 @@ export default function BlogLayout(props: Props): ReactNode {
           <BlogSidebar sidebar={sidebar} />
           <main
             className={clsx('col', {
-              'col--7': hasSidebar,
+              'col--9': hasSidebar,
               'col--9 col--offset-1': !hasSidebar,
             })}>
             {children}
