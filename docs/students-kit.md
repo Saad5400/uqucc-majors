@@ -99,7 +99,7 @@ sidebar_position: 9
 | Mapify                   | أداة ذكاء اصطناعي مخصصة لإنشاء وتحليل الخرائط                    | [Website](https://mapify.ai/)                                                                                                                                                                                                                |
 | Coolors                  | أداة تستخدم في اختيار وتنسيق الألوان                             | [Website](https://coolors.co/)                                                                                                                                                                                                               |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### التحديات البرمجية وألعاب البرمجة
 
