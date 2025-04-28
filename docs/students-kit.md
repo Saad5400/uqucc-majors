@@ -126,7 +126,7 @@ sidebar_position: 9
 | CheckiO                | منصة لتحديات البرمجة لتعلم وتحسين مهارات البرمجة           | [Website](https://checkio.org/)                |
 | Elevator Saga          | لعبة لتحسين مهارات البرمجة عن طريق التحكم في المصاعد       | [Website](https://play.elevatorsaga.com)       |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### مواقع تعليمية
 
@@ -162,7 +162,7 @@ sidebar_position: 9
 | TypingClub          | موقع لتعلم الكتابة السريعة بأي لغة كانت                                                                                                                           | [Website](https://typingclub.com)                                                                                                                                                                                                                                                                                 |
 | Papers with Code    | منصة تهدف إلى جعل أبحاث الذكاء الاصطناعي والتعلم الآلي أكثر سهولة وقابلية للتنفيذ. تربط الأبحاث الأكاديمية بالكود الأساسي الخاص بها, مما يسهل إعادة تطبيق التجارب | [Website](https://paperswithcode.com/)                                                                                                                                                                                                                                                                            |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### المذاكرة والدراسة
 
@@ -204,7 +204,7 @@ sidebar_position: 9
 | Studi         | تطبيق تعليمي يتيح تحميل الشرائح (slides) وتحويلها إلى أسئلة بنمط اختياري أو مقالي أو صح وخطأ، مع توفير الإجابات والشرح.          | [Website](https://studiapp.co/ar)                                                                                                                                                                                                                                                                                                 |
 | Sanfoundry    | موقع يوفر أسئلة متعددة الخيارات (MCQ) للعديد من المواد، يشمل كل فصل تقريبًا في المراجع. تتكرر الأسئلة منه في الاختبارات الجامعية | [Website](https://www.sanfoundry.com/1000-discrete-mathematics-questions-answers/)                                                                                                                                                                                                                                                |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### الواجبات وتنظيم المهام
 
@@ -224,7 +224,7 @@ sidebar_position: 9
 |
 | فالح |"فالح" مساعدك الشخصي هو تطبيق يساعدك على ترتيب وتنظيم حياتك العملية، الدراسية، والخاصة... حيث يستخدم التطبيق أحدث التقنيات التي تساعدك على ترتيب حياتك. | [iOS](https://apps.apple.com/sa/app/faleh-your-personal-assistant/id1616299364) |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### البريد الجامعي
 
@@ -242,7 +242,7 @@ sidebar_position: 9
 | JetBrains Student Pack            | أدوات تطوير برمجيات من JetBrains للطلاب، تشمل IntelliJ IDEA وPyCharm.                | [Website](https://www.jetbrains.com/student/)                                              |
 | Tableau for Students              | الوصول المجاني إلى أدوات Tableau لتحليل البيانات للطلاب.                             | [Website](https://www.tableau.com/academic/students)                                       |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### أخرى
 
@@ -252,7 +252,7 @@ sidebar_position: 9
 | Podcast Adobe    | يزيل الضوضاء من الصوت (تنقية الصوت)         | [Website](https://podcast.adobe.com/enhance) |
 | Hackathonat      | موقع يجمع الهاكثونات في مكان واحد           | [Website](https://hackathonat.com/)          |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ---
 
@@ -290,7 +290,7 @@ sidebar_position: 9
 | **ابدأ على قدك**               | حياتك مارح تتغير فجأة لشي مثالي ابدأ خطوة بخطوة وأهم شي الاستمرارية                                            |
 | **الأندية الطلابية**           | شارك في الأندية الجامعية ونظم وقتك؛ حتفيد نفسك وغيرك ورح تتطور وتتعلم كثيير                                    |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### نصائح مذاكرة
 
@@ -302,7 +302,7 @@ sidebar_position: 9
 | **لا تعتمد على الحفظ بس**               | لا تعتمد على الحفظ بدون الفهم لأن الفهم دائما أهم                           |
 | **لا تعتمد على أسلوب واحد**             | لا تعتمد على أسلوب دراسي واحد لكل المواد، كل مادة وطريقتها المناسبة         |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### نصائح اختبارات
 
@@ -314,7 +314,7 @@ sidebar_position: 9
 | **السهر قبل الاختبار**    | لا تسهر قبل الاختبار أبدًا                                    |
 | **تأجيل المذاكرة**        | تأجيل المذاكرة لقبل الاختبار بيوم رح يضرّك وما رح ينفعك أبدًا |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ---
 
@@ -332,7 +332,7 @@ sidebar_position: 9
 | قناة دراسات عليا في السعودية | قناة تلغرام ممتازة تعرض مواعيد فتح التسجيل للدراسات العليا في جميع الجامعات في السعودية. | [قناة تلغرام](https://t.me/drasatolya)                               |
 | قناة الدورات                 | قناة تلغرام توفر مجموعة من الدورات التدريبية المفيدة.                                    | [قناة تلغرام](https://t.me/Jii_1o)                                   |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### برمجة
 
@@ -361,7 +361,7 @@ sidebar_position: 9
 | Coding with John       | قناة أجنبية تقدم شروحات عن البرمجة في جافا وأساليب البرمجة الحديثة  | [قناة يوتيوب](https://www.youtube.com/@CodingWithJohn)                                             |
 | Fireship               | قناة أجنبية مختصة في تقديم شروحات سريعة في تطوير البرمجيات والتقنية | [قناة يوتيوب](https://www.youtube.com/@Fireship)                                                   |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### علوم الحاسب
 
@@ -375,7 +375,7 @@ sidebar_position: 9
 | Figma Tutorial           | قائمة لتعلم التصميم باستخدام فيجما  | [قائمة تشغيل](https://youtube.com/playlist?list=PL_kUZz_5GV58APr1xRJNP4zRZ1uNk4Ke1&feature=shared) |
 | Adel Nasim               | قناة عربية تشرح مواد في البرمجة     | [قناة يوتيوب](https://www.youtube.com/@AdelNasim)                                                  |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### علم البيانات
 
@@ -383,7 +383,7 @@ sidebar_position: 9
 | ---------------------------- | ------------------------------------------------------------------------------------------ |
 | دليلك الشامل لتحليل البيانات | [ PDF](https://drive.google.com/file/d/1mhIxsPwVM4sw87WGjzoLP7egudJj76T5/view?usp=sharing) |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### الذكاء الاصطناعي
 
@@ -391,7 +391,7 @@ sidebar_position: 9
 | ------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | المهن في مجالات البيانات والذكاء الاصطناعي | [PDF](https://drive.google.com/file/d/1ZjuWYpiXtK7oE7LpXwYMjI1PAC1do1-q/view?usp=sharing) |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### تطوير اللغة والمهارات الناعمة
 
@@ -401,7 +401,7 @@ sidebar_position: 9
 | ZAmericanEnglish      | أكبر قناة عربية لتعليم اللغة الانجليزية                                                                     | [قناة يوتيوب](https://www.youtube.com/@zamericanenglish)             |
 | التكرار المتباعد      | طريقة فعالة للمذاكرة تعتمد على تكرار المعلومات في فترات زمنية متباعدة لتحسين الاحتفاظ بها على المدى الطويل. | [فيديو يوتيوب](https://youtu.be/Z-0OpHiw5DU?si=kalierU7tp8nHD-D)     |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ---
 
@@ -431,7 +431,7 @@ sidebar_position: 9
 - `flowergirl@example.com`
 - `cool_dude@hotmail.com`
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### السيرة الذاتية
 
@@ -449,7 +449,7 @@ sidebar_position: 9
 | **قالب هارفارد للسيرة الذاتية بنظام ATS** | - [HarvardCV](https://careerservices.fas.harvard.edu/resources/bullet-point-resume-template/)                                                                                                                                                                   |
 | **الشهادات الاحترافية**                   | قوّي السيرة الذاتية بالشهادات المهنية والاحترافية لأنها هي المعتمدة، وهذا رابط فيه ملف الشهادات الاحترافية [دليل الشهادات الاحترافية](https://drive.google.com/file/d/1lNvH1JiT6e6oLCk3CPp6s5pZ5wo2GviA/view?usp=sharing)                                       |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### لينكدإن
 
@@ -476,7 +476,7 @@ sidebar_position: 9
 | **البايو (Bio)**                  | ركز على 3 نقاط: إنجازاتك السابقة، أين أنت الآن، وما هي خططك المستقبلية.                                                                                      |
 |                                   |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
 
 ### المهارات الناعمة
 
@@ -498,4 +498,4 @@ sidebar_position: 9
 | **بناء العلاقات**    | القدرة على بناء والحفاظ على علاقات إيجابية مع الآخرين                 |
 | **القيادة**          | القدرة على توجيه وإلهام الآخرين لتحقيق الأهداف المشتركة               |
 
-[العودة إلى الفهرس⤴️](https://uqucc-majors.sb.sa/students-kit#%D8%A7%D9%84%D9%81%D9%87%D8%B1%D8%B3)
+[العودة إلى الفهرس⤴️](#الفهرس)
