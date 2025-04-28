@@ -63,6 +63,9 @@ sidebar_position: 10
 - [شذى مكي](https://x.com/_1uiixl?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [علي طيب](https://x.com/Alawy537?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [جمانه الشريف](https://2u.pw/jKBgg)
+
+### علم البيانات
+- يوسف عبدالله
   
 ## المشاركون في الاستبيانات  
 - أمين أيمن بارقعان  
