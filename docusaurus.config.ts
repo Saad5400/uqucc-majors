@@ -45,6 +45,10 @@ const config: Config = {
         groupByYear: false,
       },
     },
+    footer: {
+      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصصات في كلية الحاسبات بجامعة أم القرى`,
+      style: 'dark',
+    },
   },
 
   presets: [

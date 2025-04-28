@@ -48,7 +48,7 @@ function BlogSidebarContent({
       case 'se-exp':
         itemsByYear[1][1].push(item);
         break;
-      case 'ce-exp':
+      case 'cne-exp':
         itemsByYear[2][1].push(item);
         break;
       case 'ai-exp':
