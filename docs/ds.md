@@ -252,3 +252,6 @@ sidebar_position: 6
 - [StatQuest (Josh Starmer)](https://www.youtube.com/c/joshstarmer)  
 - [Krish Naik](https://www.youtube.com/c/KrishNaik)  
 - [قناة الذكاء الاصطناعي بالعربي](https://www.youtube.com/c/AIArabia)
+
+### وفي النهاية:
+> ﴿ وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى وَأَنَّ سَعْيَهُ سَوْفَ يُرَى﴾ 
