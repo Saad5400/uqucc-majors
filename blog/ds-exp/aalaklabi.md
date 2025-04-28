@@ -1,8 +1,10 @@
 ---
-title: التجربة الثانية
+title: تجربة عبدالرحمن الأكلبي
 authors:
-  name: التجربة الثانية
-tags: [ds, 44]
+  name: عبدالرحمن الأكلبي
+  url: https://www.linkedin.com/in/aalaklabi/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQHwocN9t1EZCg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723765763390?e=1751500800&v=beta&t=o39V0NUL7E3TkiARkBbLbu9DyIjDAGObJEk4GerGNK8
+tags: [ds]
 ---
 
 كنت مهتم بالتحليل من البداية.
