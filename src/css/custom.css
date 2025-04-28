@@ -6,6 +6,7 @@
   --ifm-color-primary-light: #f07b2f;
   --ifm-color-primary-lighter: #f29355;
   --ifm-color-primary-lightest: #f7a87a;
+  --ifm-footer-background-color: #f5f6f7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -18,6 +19,7 @@
   --ifm-color-primary-light: #ffa07a;
   --ifm-color-primary-lighter: #ffb6c1;
   --ifm-color-primary-lightest: #ffc0cb;
+  --ifm-footer-background-color: #1c1c1c;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -40,6 +42,10 @@ iframe {
   padding: 1rem;
   border-radius: 1rem;
   border: 1px solid var(--ifm-color-primary);
+}
+
+table {
+  width: 100%;
 }
 
 table thead tr:first-child th:first-child {
