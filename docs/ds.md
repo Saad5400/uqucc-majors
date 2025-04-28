@@ -136,11 +136,10 @@ sidebar_position: 6
 كل يوم تطلع أدوات وتقنيات جديدة، ولو ما كنت تتابع وتتعلّم باستمرار، بتتأخر عن السوق بسرعة.
 
 ## تجارب ونصائح عملية
-[تجربة فيصل العُمري - طالب في دفعة 44](https://uqucc-majors.sb.sa/blog/ds-exp/faisal-alomri)
 
-[تجربة نوريه محمد - متخصصة في تحليل البيانات](https://uqucc-majors.sb.sa/blog/ds-exp/nuriyamohamed)
-
-[تجربة عبدالرحمن الأكلبي - متخصص في تحليل البيانات](https://uqucc-majors.sb.sa/blog/ds-exp/aalaklabi)
+- [تجربة فيصل العُمري - طالب في دفعة 44](/blog/ds-exp/faisal-alomri)
+- [تجربة نوريه محمد - متخصصة في تحليل البيانات](/blog/ds-exp/nuriyamohamed)
+- [تجربة عبدالرحمن الأكلبي - متخصص في تحليل البيانات](/blog/ds-exp/aalaklabi)
 
 
 
