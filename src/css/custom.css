@@ -51,3 +51,11 @@ table {
 table thead tr:first-child th:first-child {
   width: 50%;
 }
+
+.image-button {
+  filter: invert(1);
+}
+
+[data-theme='dark'] .image-button {
+  filter: invert(0);
+}
