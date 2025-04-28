@@ -6,6 +6,7 @@ slug: /
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TelegramAdmonition from '@theme/Admonitions/TelegramAdmonition';
+import Button from '@theme/Buttons/Button';
 
 # مقدمة
 
@@ -15,14 +16,50 @@ import TelegramAdmonition from '@theme/Admonitions/TelegramAdmonition';
 <TelegramAdmonition />
 
 ## تخصصات كلية الحاسبات بجامعة أم القرى بالفرع الرئيسي
-- [علوم الحاسب الآلي](cs.mdx)
-- [هندسة الحاسب والشبكات](cne.mdx)
-- [هندسة البرمجيات](se.mdx)
-- [علم البيانات](ds.md)
-- [الأمن السيبراني](sec.mdx)
-- [الذكاء الاصطناعي](ai.md)
-- [تفاعل الإنسان مع الحاسب](hci.mdx)
 
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+    gap: '1rem',
+  }}
+>
+  <Button
+    label="علوم الحاسب الآلي"
+    link="cs"
+    imageSrc="/img/cs.jpg"
+  />
+  <Button
+    label="هندسة الحاسب والشبكات"
+    link="cne"
+    imageSrc="/img/cne.jpg"
+  />
+  <Button
+    label="هندسة البرمجيات"
+    link="se"
+    imageSrc="/img/se.png"
+  />
+  <Button
+    label="علم البيانات"
+    link="ds"
+    imageSrc="/img/ds.png"
+  />
+  <Button
+    label="الأمن السيبراني"
+    link="sec"
+    imageSrc="/img/sec.jpg"
+  />
+  <Button
+    label="الذكاء الاصطناعي"
+    link="ai"
+    imageSrc="/img/ai.jpg"
+  />
+  <Button
+    label="تفاعل الإنسان مع الحاسب"
+    link="hci"
+    imageSrc="/img/hci.png"
+  />
+</div>
 
 ## نسب التخصيص
 
