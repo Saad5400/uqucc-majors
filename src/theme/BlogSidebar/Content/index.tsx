@@ -37,6 +37,7 @@ function BlogSidebarContent({
     ['تفاعل الانسان مع الحاسب', []],
     ['علم البيانات', []],
     ['الأمن السيبراني', []],
+    ['منشورات عامة', []],
   ];
 
   items.forEach((item) => {
@@ -63,6 +64,8 @@ function BlogSidebarContent({
       case 'sec-exp':
         itemsByYear[6][1].push(item);
         break;
+      default:
+        itemsByYear[7][1].push(item);
     }
   });
 

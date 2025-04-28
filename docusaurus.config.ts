@@ -33,7 +33,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      // title: 'تخصصات كلية الحاسبات',
+      title: 'حملة اختيار التخصص',
       logo: {
         alt: 'My Site Logo',
         src: 'img/favicon.png',
@@ -48,6 +48,20 @@ const config: Config = {
     footer: {
       copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصصات في كلية الحاسبات بجامعة أم القرى`,
       style: 'dark',
+      links: [
+        {
+          label: 'الرئيسية',
+          to: '/',
+        },
+        {
+          label: 'تجارب الطلاب',
+          to: 'blog',
+        },
+        {
+          label: 'مجتمع الحملة',
+          to: 'https://t.me/+5M8kuV7aAsRlNDU0',
+        },
+      ],
     },
   },
 

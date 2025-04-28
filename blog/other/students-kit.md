@@ -1,5 +1,9 @@
 ---
-sidebar_position: 9
+authors:
+  name: عبدالمجيد بكر
+  url: https://x.com/Ji_1o
+  image_url: https://pbs.twimg.com/profile_images/1895551507455528960/QE3qkxmq_400x400.jpg
+title: 🪙كنز طلاب الحاسب🪙
 ---
 
 # 🪙كنز طلاب الحاسب🪙
