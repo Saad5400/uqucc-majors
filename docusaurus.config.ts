@@ -61,6 +61,10 @@ const config: Config = {
           label: 'مجتمع الحملة',
           to: 'https://t.me/+5M8kuV7aAsRlNDU0',
         },
+        {
+          label: 'كنز طلاب الحاسب',
+          to: '/blog/other/students-kit',
+        }
       ],
     },
   },
