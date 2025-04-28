@@ -27,7 +27,7 @@ export default function Button({
   link,
   label,
   imageSrc,
-  dimming = 0.8,
+  dimming = 0.5,
 }: Button) {
   const sizeMap = { sm: 'sm', small: 'sm', lg: 'lg', large: 'lg', medium: null };
   const buttonSize = size ? sizeMap[size] : '';
@@ -59,7 +59,7 @@ export default function Button({
           disabledClass,
           className
         )}
-        style={{ height: '5rem', ...backgroundStyle, ...style }}
+        style={{ height: '10rem', color: 'white', ...backgroundStyle, ...style }}
         role="button"
         aria-disabled={disabled}
       >
