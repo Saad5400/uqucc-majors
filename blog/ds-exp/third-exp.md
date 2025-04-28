@@ -1,8 +1,10 @@
 ---
-title: التجربة الثالثة
+title: نوريه محمد
 authors:
-  name: التجربة الثالثة
-tags: [ds, 44]
+  name: نوريه محمد
+  url: https://www.linkedin.com/in/nuriyamohamed/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQGF2uJtl_1dnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725041844490?e=1751500800&v=beta&t=qha85XJXZeAQIdu_Am6-mEHUtRBA4sMPp6wn2XlnTVc
+tags: [ds]
 ---
 
 بداية رحلتي مع تحليل البيانات كانت من خلال مادة جامعية كان من متطلباتها إنشاء لوحة معلومات (Dashboard) باستخدام Power BI.
