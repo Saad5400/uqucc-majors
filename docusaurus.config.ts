@@ -59,7 +59,7 @@ const config: Config = {
         },
         {
           label: 'مجتمع الحملة',
-          to: 'https://t.me/+5M8kuV7aAsRlNDU0',
+          to: 'https://t.me/uquccmajors',
         },
         {
           label: 'كنز طلاب الحاسب',
