@@ -47,7 +47,7 @@ export default function Button({
         : {};
 
     return (
-        <div className='image-button'>
+        <div className='image-button' style={{ boxShadow: '2px 2px 25px rgba(0, 0, 0, 0.4)', borderRadius: '1rem', overflow: 'hidden' }}>
             <Link to={destination}>
                 <button
                     className={clsx(
@@ -59,7 +59,7 @@ export default function Button({
                         disabledClass,
                         className
                     )}
-                    style={{ height: '10rem', backgroundColor: 'white', borderRadius: '1rem 1rem 0 0', ...backgroundStyle, ...style }}
+                    style={{ height: '10rem', ...backgroundStyle, ...style }}
                     role="button"
                     aria-disabled={disabled}
                 >
@@ -67,7 +67,8 @@ export default function Button({
             </Link>
             <Link
                 to={destination}
-                style={{color: 'black', backgroundColor: 'white', borderRadius: '0 0 1rem 1rem',  width: '100%', textAlign: 'center', padding: '0.5rem', display: 'block'}}
+                className='image-button-label'
+                style={{color: 'black', width: '100%', textAlign: 'center', padding: '0.5rem', display: 'block', fontWeight: 'bold'}}
             >
                 {label}
             </Link>
