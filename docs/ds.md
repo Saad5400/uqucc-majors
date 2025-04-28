@@ -137,7 +137,9 @@ sidebar_position: 6
 
 ## تجارب ونصائح عملية
 [تجربة فيصل العُمري - طالب في دفعة 44](https://uqucc-majors.sb.sa/blog/ds-exp/faisal-alomri)
+
 [التجربة الثانية](https://uqucc-majors.sb.sa/blog/ds-exp/second-exp)
+
 [التجربة الثالثة](https://uqucc-majors.sb.sa/blog/ds-exp/third-exp)
 
 
