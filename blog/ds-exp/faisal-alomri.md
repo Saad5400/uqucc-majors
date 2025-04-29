@@ -1,7 +1,7 @@
 ---
 title: تجربة فيصل العُمري
 authors:
-  name: فيصل العُعري
+  name: فيصل العُمري
   url: https://x.com/Faisal_1h
   image_url: https://pbs.twimg.com/profile_images/1895162950165389312/r-uYvN3l_400x400.jpg
 tags: [ds, 44]
