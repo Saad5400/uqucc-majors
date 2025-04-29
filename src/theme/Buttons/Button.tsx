@@ -47,7 +47,7 @@ export default function Button({
         : {};
 
     return (
-        <div className='image-button' style={{ boxShadow: '2px 2px 25px rgba(0, 0, 0, 0.4)', borderRadius: '1rem', overflow: 'hidden' }}>
+        <div className='image-button' style={{ boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.4)', borderRadius: '1rem', overflow: 'hidden' }}>
             <Link to={destination}>
                 <button
                     className={clsx(
