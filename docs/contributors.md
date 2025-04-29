@@ -44,18 +44,24 @@ sidebar_position: 10
 - [أروى أحمد عبدالقيوم](https://x.com/a137r?s=21)
 - [ماريا سعيد](https://wa.me/+966554361289)
 - [البتول الانديجاني](https://x.com/balandejani?s=21)
-
+- ناصر إسماعيل محمد
 
 ### الأمن السيبراني:
 - [سلمان قاري](https://x.com/salmanqari25?s=21)
 - [أمين بارقعان](https://x.com/v_40aj)
 - ماهر الحربي
 - [رزان فارس](https://x.com/hackerrazan)
+- [رنيم بكور](https://x.com/raneemcys_?s=21&t=7E6SYhurSPqJBhCEDf0Prg)
+- [جوري الحربي](https://x.com/ilil0oj?s=21&t=7E6SYhurSPqJBhCEDf0Prg)
+- رغد كاظم
+- جنى قضماني
+- غسان النجار
 
 ### الذكاء الإصطناعي:
 - بسمة محمد
 - دينا يوسف
 - لمار أشرف
+- مصعب إسكندر
 
 ### تفاعل الإنسان مع الحاسب:
 
@@ -64,13 +70,14 @@ sidebar_position: 10
 - [شذى مكي](https://x.com/_1uiixl?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [علي طيب](https://x.com/Alawy537?s=11&t=1kmgHm4jKKZ8IJtaqDG7eA)
 - [جمانه الشريف](https://2u.pw/jKBgg)
-- اسماء الكبكبي
+- أسماء الكبكبي
 
 ### علم البيانات
-- يوسف عبدالله
+- [يوسف عبدالله](https://x.com/ysfxj0)
 - أحمد حلبي
-- فيصل العُمري
--
+- [فيصل العُمري](https://x.com/Faisal_1h)
+- [نور سالم](https://x.com/78Nour_)
+- جوري الكناني
   
 ## المشاركون في الاستبيانات  
 - أمين أيمن بارقعان  
