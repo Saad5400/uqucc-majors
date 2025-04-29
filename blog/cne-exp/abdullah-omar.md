@@ -2,6 +2,7 @@
 title: تجربة عبدالله بامفلح - خريج دفعة 43
 authors:
   name: عبدالله بامفلح
+  url: https://abdullahbamufleh.github.io/
 tags: [cne, graduate]
 ---
 
