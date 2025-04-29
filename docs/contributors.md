@@ -10,7 +10,7 @@ sidebar_position: 10
 
 ## المنصات  
 - [منصة الكاتو](http://elcato.sb.sa)  
-- [مبادرة منار](https://x.com/Manarinit)
+- [مبادرة منار](https://linktr.ee/Manarinit)
 
 
 ## مسؤولي التخصصات
