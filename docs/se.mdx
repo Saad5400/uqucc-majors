@@ -233,6 +233,8 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="management" label="الإدارة">
+    جزء مهم من هندسة البرمجيات مخصص لدراسة الإدارة، حيث تدرس مادة بعنوان إدارة المشاريع، ثم تتعلم عن موضوعات إدارية أخرى ضمن مواد متفرقة. أهم المواضيع اللي تدرسها:
+
     - **إدارة المشاريع (Project Management)**:
       - تتعلم إدارة فرق العمل، وتوزيع المهام، وتتبع تقدم المشروع باستخدام منهجيات مثل Agile وScrum.
       - إدارة الوقت والموارد بفعالية لضمان تسليم المشاريع في الوقت المحدد.
@@ -250,6 +252,50 @@ import TabItem from '@theme/TabItem';
     - **إدارة التواصل (Communication Management)**:
       - ضمان وضوح قنوات التواصل بين جميع أصحاب المصلحة (Stakeholders)، بما فيهم العملاء، الفريق التقني، والإدارة.
       - توثيق الاجتماعات والتقارير الدورية بشكل واضح ومنظم.
+
+    ```mermaid
+    gantt
+    title Project Management Timeline for Library System Development
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m-%Y
+
+    section Project Initiation
+    Define Project Scope           :init_scope, 2025-01-01, 10d
+    Identify Stakeholders         :init_stake, after init_scope, 5d
+    Develop Project Charter       :init_charter, after init_stake, 7d
+    Kickoff Meeting               :milestone, init_kickoff, after init_charter, 0d
+
+    section Requirements Gathering
+    Conduct User Interviews       :req_interview, after init_kickoff, 15d
+    Create SRS Document           :req_srs, after req_interview, 10d
+    Review Requirements           :req_review, after req_srs, 5d
+    Stakeholder Approval          :milestone, req_approve, after req_review, 0d
+
+    section Planning
+    Develop Project Plan          :plan_dev, after req_approve, 10d
+    Resource Allocation           :plan_res, after plan_dev, 5d
+    Risk Assessment              :plan_risk, after plan_dev, 7d
+    Communication Plan            :plan_comm, after plan_res, 5d
+    Plan Approved                 :milestone, plan_approve, after plan_comm, 0d
+
+    section Execution
+    Agile Sprint 1 - Backend      :exec_sprint1, after plan_approve, 15d
+    Sprint 1 Review               :milestone, exec_review1, after exec_sprint1, 0d
+    QA Check 1                    :exec_qa1, after exec_sprint1, 3d
+    Agile Sprint 2 - Frontend     :exec_sprint2, after exec_sprint1, 15d
+    Sprint 2 Review               :milestone, exec_review2, after exec_sprint2, 0d
+    QA Check 2                    :exec_qa2, after exec_sprint2, 3d
+    Agile Sprint 3 - Integration  :exec_sprint3, after exec_sprint2, 15d
+    Sprint 3 Review               :milestone, exec_review3, after exec_sprint3, 0d
+    QA Check 3                    :exec_qa3, after exec_sprint3, 5d
+    Change Management Workshop    :exec_change, after exec_sprint2, 5d
+
+    section Closing
+    Final Testing & Validation    :close_test, after exec_sprint3, 10d
+    User Training                 :close_train, after close_test, 5d
+    Project Documentation         :close_doc, after exec_sprint3, 10d
+    Project Closure Meeting       :milestone, close_meet, after close_train, 0d
+    ```
   </TabItem>
 </Tabs>
 
