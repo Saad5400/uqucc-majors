@@ -51,7 +51,8 @@ sidebar_position: 10
 - [أمين بارقعان](https://x.com/v_40aj)
 - ماهر الحربي
 - [رزان فارس](https://x.com/hackerrazan)
-
+- [رنيم بكور](https://x.com/raneemcys_?s=21&t=7E6SYhurSPqJBhCEDf0Prg)
+- جوري الحربي
 ### الذكاء الإصطناعي:
 - بسمة محمد
 - دينا يوسف
