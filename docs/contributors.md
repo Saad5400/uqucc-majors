@@ -74,10 +74,10 @@ sidebar_position: 10
 
 ### علم البيانات:
 - [يوسف عبدالله](https://x.com/ysfxj0)
-- أحمد حلبي
+- [أحمد حلبي](https://x.com/ahmad_ds_uqu?s=21&t=fusaNy0pmT4Wq5pBmGat7w)
 - [فيصل العُمري](https://x.com/Faisal_1h)
 - [نور سالم](https://x.com/78Nour_)
-- جوري الكناني
+- [جوري الكناني](https://x.com/JoryAlkanani)
   
 ## المشاركون في الاستبيانات  
 - أمين أيمن بارقعان  
