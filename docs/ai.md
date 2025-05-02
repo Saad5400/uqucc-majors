@@ -114,6 +114,7 @@ sidebar_position: 5
 - [تجربة مصعب إسكندر - طالب في دفعة 44](/blog/ai-exp/musab-iskandar)
 - [تجربة ليان المحمادي - طالبة في دفعة 44](/blog/ai-exp/layan-almehmadi)
 - [تجربة بروج خيمي - طالبة في دفعة 44](/blog/ai-exp/burujmk)
+- [تجربة لمار أشرف - طالبة في دفعة 44](/blog/ai-exp/lamarindr)
 
 
 
