@@ -63,6 +63,7 @@ sidebar_position: 10
 - [لمار أشرف اندرقيري](https://x.com/lamarindr)
 - مصعب إسكندر
 - [عاصم القرني](https://x.com/asimqrny)
+- طاهر الحمدو
 
 ### تفاعل الإنسان مع الحاسب:
 
