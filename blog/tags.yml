@@ -26,6 +26,10 @@ ds:
   label: علم البيانات
   permalink: /ds
 
+teacher:
+  label: عضو هيئة التدريس
+  permalink: teacher
+
 graduate:
   label: خريج
   permalink: /graduate
