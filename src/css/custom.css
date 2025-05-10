@@ -1,36 +1,26 @@
 :root {
-  /* 🌟 Neon Orange palette */
-  --ifm-color-primary: #ff6e00;
-  --ifm-color-primary-dark: #e65c00;
-  --ifm-color-primary-darker: #cc5200;
-  --ifm-color-primary-darkest: #b34700;
-  --ifm-color-primary-light: #ff7f33;
-  --ifm-color-primary-lighter: #ff914d;
-  --ifm-color-primary-lightest: #ffad80;
-
-  /* rest unchanged */
+  --ifm-color-primary: #e85d04;
+  --ifm-color-primary-dark: #ce4d03;
+  --ifm-color-primary-darker: #b93e02;
+  --ifm-color-primary-darkest: #a23001;
+  --ifm-color-primary-light: #f07b2f;
+  --ifm-color-primary-lighter: #f29355;
+  --ifm-color-primary-lightest: #f7a87a;
   --ifm-footer-background-color: #f5f6f7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  /* use neon orange in dark mode too */
-  --ifm-color-primary: #ff6e00;
-  --ifm-color-primary-dark: #e65c00;
-  --ifm-color-primary-darker: #cc5200;
-  --ifm-color-primary-darkest: #b34700;
-  --ifm-color-primary-light: #ff7f33;
-  --ifm-color-primary-lighter: #ff914d;
-  --ifm-color-primary-lightest: #ffad80;
-
-  /* super-dark backgrounds for contrast */
-  --ifm-background-color: #0a0a0a;
-  --ifm-color-background: #0a0a0a;
-  --ifm-footer-background-color: #050505;
-
-  /* neon-glow code highlight */
-  --docusaurus-highlighted-code-line-bg: rgba(255, 110, 0, 0.15);
+  --ifm-color-primary: #ff7f50;
+  --ifm-color-primary-dark: #ff6347;
+  --ifm-color-primary-darker: #ff4500;
+  --ifm-color-primary-darkest: #dc143c;
+  --ifm-color-primary-light: #ffa07a;
+  --ifm-color-primary-lighter: #ffb6c1;
+  --ifm-color-primary-lightest: #ffc0cb;
+  --ifm-footer-background-color: #1c1c1c;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 
