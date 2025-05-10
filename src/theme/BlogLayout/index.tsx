@@ -21,7 +21,7 @@ export default function BlogLayout(props: Props): ReactNode {
             })}>
             {children}
           </main>
-          {toc && <div className="col col--2">{toc}</div>}
+          {/* {toc && <div className="col col--2">{toc}</div>} */}
         </div>
       </div>
     </Layout>
