@@ -24,7 +24,7 @@ html [data-theme='dark'],
   --ifm-color-emphasis-0: #fff !important;
   --ifm-color-emphasis-100: #eee !important;
   --ifm-color-emphasis-200: #ddd !important;
-  --ifm-color-emphasis-300: #ccc !important;
+  --ifm-color-emphasis-300: #444 !important;
   --ifm-color-emphasis-400: #bbb !important;
   --ifm-color-emphasis-500: #bbb !important;
   --ifm-color-emphasis-600: #bbb !important;
@@ -48,13 +48,13 @@ html [data-theme='dark'],
   --ifm-color-primary-contrast-foreground: #ffffff !important;
   --ifm-color-secondary-contrast-background: #2d2d2d !important;
   --ifm-color-secondary-contrast-foreground: #ffffff !important;
-  --ifm-color-success-contrast-background: #064e3b !important;
+  --ifm-color-success-contrast-background: #064e3b78 !important;
   --ifm-color-success-contrast-foreground: #ffffff !important;
-  --ifm-color-info-contrast-background: #1e40af !important;
+  --ifm-color-info-contrast-background: #141414 !important;
   --ifm-color-info-contrast-foreground: #ffffff !important;
   --ifm-color-warning-contrast-background: #92400e !important;
   --ifm-color-warning-contrast-foreground: #ffffff !important;
-  --ifm-color-danger-contrast-background: #7f1d1d !important;
+  --ifm-color-danger-contrast-background: #4b1111 !important;
   --ifm-color-danger-contrast-foreground: #ffffff !important;
 }
 
