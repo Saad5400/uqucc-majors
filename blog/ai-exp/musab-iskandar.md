@@ -3,7 +3,6 @@ title: تجربة مصعب إسكندر
 authors:
   name: مصعب إسكندر
   url: https://x.com/musab_iskandar
-  image_url: https://pbs.twimg.com/profile_images/1841467117528354817/WWYn7RH__400x400.jpg
 tags: [ai, 44]
 ---
 
