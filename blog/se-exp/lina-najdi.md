@@ -3,7 +3,6 @@ title: تجربة لينا نجدي
 authors:
   name: لينا نجدي
   url: https://x.com/priveloo?s=21
-  image_url: https://pbs.twimg.com/profile_images/1877413525892583424/33ei9m6F_400x400.jpg
 tags: [se, 45]
 ---
 
