@@ -32,6 +32,11 @@ const config: Config = {
   },
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'حملة اختيار التخصص',
       logo: {
@@ -47,7 +52,7 @@ const config: Config = {
     },
     footer: {
       copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصص`,
-      style: 'dark',
+      style: 'light',
       links: [
         {
           label: 'الرئيسية',
