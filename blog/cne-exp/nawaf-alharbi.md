@@ -2,7 +2,6 @@
 title: تجربة نواف الحربي - خريج دفعة 42
 authors:
   name: نواف الحربي
-  url: https://x.com/no_ve2?s=21
 tags: [cne, graduate]
 ---
 
