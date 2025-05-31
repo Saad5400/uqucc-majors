@@ -60,3 +60,8 @@ table thead tr:first-child th:first-child {
   filter: invert(1);
   box-shadow: 2px 2px 25px rgba(255, 255, 255, 1) !important;
 }
+
+/* Hiding the X on the search bar <button class="searchClearButton_qk4g">✕</button> */
+button[class*="searchClearButton"] {
+  display: none;
+}

@@ -31,6 +31,18 @@ const config: Config = {
     locales: ['ar'],
   },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        docsRouteBasePath: '/',
+        hashed: true,
+        language: "ar",
+      }),
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
