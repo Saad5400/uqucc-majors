@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuqu_majors=self.webpackChunkuqu_majors||[]).push([[2024],{82024:(e,u,r)=>{r.d(u,{createArchitectureServices:()=>s.S});var s=r(98815);r(73579)}}]);

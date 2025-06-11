@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuqu_majors=self.webpackChunkuqu_majors||[]).push([[9495],{79495:(e,s,u)=>{u.d(s,{createPieServices:()=>a.f});var a=u(39732);u(73579)}}]);

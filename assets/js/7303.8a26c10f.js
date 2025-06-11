@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuqu_majors=self.webpackChunkuqu_majors||[]).push([[7303],{7303:(e,s,u)=>{u.d(s,{createInfoServices:()=>a.v});var a=u(68525);u(73579)}}]);

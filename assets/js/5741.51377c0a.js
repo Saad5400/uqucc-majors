@@ -1,0 +1,1 @@
+(self.webpackChunkuqu_majors=self.webpackChunkuqu_majors||[]).push([[5741],{45741:()=>{}}]);
