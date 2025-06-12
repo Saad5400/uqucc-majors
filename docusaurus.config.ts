@@ -121,7 +121,7 @@ const config: Config = {
       ({
         docsRouteBasePath: '/',
         hashed: true,
-        language: "ar",
+        language: ["en", "ar"],
       }),
     ],
   ],
