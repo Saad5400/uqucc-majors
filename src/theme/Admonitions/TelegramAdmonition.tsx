@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 export default function TelegramAdmonition(props) {
   return <Admonition
     icon={<FaTelegram />}
-    title={<a href="https://t.me/uqucc_chat" target="_blank" rel="noopener noreferrer">انضم إلى قروب المناقشة العام(غير رسمي)!</a>}
+    title={<a href="https://t.me/uqucc_chat" target="_blank" rel="noopener noreferrer">انضم إلى قروب المناقشة العام(غير رسمي)</a>}
     {...props}
   />;
 }
