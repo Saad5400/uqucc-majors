@@ -3,7 +3,6 @@ title: تجربة ليان المحمادي
 authors:
   name: ليان المحمادي
   url: https://x.com/iam_layan
-  image_url: https://pbs.twimg.com/profile_images/1830842993059713027/bzhsAAux_400x400.jpg
 tags: [ai, 44]
 ---
 
