@@ -2,7 +2,6 @@
 title: تجربة لينا نجدي
 authors:
   name: لينا نجدي
-  url: https://x.com/priveloo?s=21
 tags: [se, 45]
 ---
 
