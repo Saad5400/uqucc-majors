@@ -3,7 +3,6 @@ title: تجربة بيسال سمكري
 authors:
   name: بيسال سمكري 
   url: https://www.linkedin.com/in/%D8%A8%D9%8A%D8%B3%D8%A7%D9%84-%D8%B3%D9%85%D9%83%D8%B1%D9%8A-66a92b2b8
-  image_url: https://i.imgur.com/w45ix2b.png
 tags: [hci, 45]
 ---
 
