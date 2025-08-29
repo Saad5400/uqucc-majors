@@ -3,7 +3,6 @@ title: تجربة أبوبكر مصطفى
 authors:  
   name: أبوبكر مصطفى  
   url: https://x.com/ocm_5  
-  image_url: https://pbs.twimg.com/profile_images/1840131058659905536/_V57ySpC.jpg  
 tags: [sec, 44]  
 ---  
   
