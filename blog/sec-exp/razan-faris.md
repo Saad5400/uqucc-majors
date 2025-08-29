@@ -3,7 +3,6 @@ title: تجربة رزان فارس
 authors:
   name: رزان فارس
   url: https://x.com/hackerrazan
-  image_url: https://pbs.twimg.com/profile_images/1889692722082041857/A0ZAE32f_400x400.jpg
 tags: [sec, 44]
 ---
 
