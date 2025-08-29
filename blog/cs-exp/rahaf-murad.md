@@ -3,7 +3,6 @@ title: تجربة رهف مراد - خريجة دفعة 42
 authors:
   name: رهف مراد
   url: https://x.com/_irahaf22
-  image_url: https://media.licdn.com/dms/image/v2/D4D03AQEB4xBu3DYasg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722367506330?e=1750291200&v=beta&t=QVb5nHTrYePVY9iOEKhrwpA-yirSK5dUZ0ZZG-T4kcU
 tags: [cs, graduate]
 ---
 ## 1. إيش كان سبب دخولك لعلوم الحاسب؟
