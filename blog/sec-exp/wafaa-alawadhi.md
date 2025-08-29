@@ -3,7 +3,6 @@ title: تجربة وفاء العواضي
 authors:
   name: وفاء العواضي
   url: https://x.com/alawadhiWF
-  image_url: https://pbs.twimg.com/profile_images/1674198643920838657/uRVEiO0i_400x400.jpg
 tags: [sec, 44]
 ---
 
