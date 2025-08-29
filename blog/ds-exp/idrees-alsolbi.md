@@ -3,7 +3,6 @@ title: تجربة د. إدريس الصلبي
 authors:
   name: د. إدريس الصلبي
   title: رئيس قسم علم البيانات
-  image_url: https://i.imgur.com/sWFb90p.jpeg
 tags: [ds, teacher]
 ---
 
