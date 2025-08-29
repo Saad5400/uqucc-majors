@@ -3,7 +3,6 @@ title: تجربة بروج خيمي
 authors:
   name: بروج خيمي
   url: https://x.com/burujmk?s
-  image_url: https://pbs.twimg.com/profile_images/1563283744668016641/DZSk4D04_400x400.jpg
 tags: [ai, 44]
 ---
 السلام عليكم جميعاً 
