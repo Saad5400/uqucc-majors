@@ -3,7 +3,6 @@ title: تجربة أحمد داغستاني - خريج دفعة 41
 authors:
   name: أحمد داغستاني
   url: https://x.com/ahmad14fouad1
-  image_url: https://pbs.twimg.com/profile_images/1891112137566601216/D5rd3vvL_400x400.jpg
 tags: [cne, graduate]
 ---
 
