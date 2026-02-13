@@ -31,7 +31,7 @@ sidebar_position: 10
 - دانه الرحيلي
 - [سعد بتوا](https://x.com/SaadBatwa)
 - لينا نجدي
-- رغد آل مسعود
+- [رغد آل مسعود](https://github.com/RaghadAlmasoud)
 - رندا الغامدي
 - حنان نبيل
 
