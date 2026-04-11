@@ -58,8 +58,8 @@ sidebar_position: 10
 - غسان النجار
 
 ### الذكاء الإصطناعي:
-- بسمة محمد
-- دينا يوسف
+- [بسمة محمد](https://www.linkedin.com/in/basma-mohammed-elsayed-4974192b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [دينا يوسف](https://www.linkedin.com/in/dina-yousef-ab514a2b5)
 - لمار أشرف اندرقيري
 - مصعب إسكندر
 - عاصم القرني
