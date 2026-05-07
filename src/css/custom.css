@@ -9,6 +9,18 @@
   --ifm-footer-background-color: #f5f6f7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.65rem;
+  --ifm-h3-font-size: 1.3rem;
+  --ifm-line-height-base: 1.85;
+  --ifm-paragraph-margin-bottom: 1.1rem;
+  --ifm-toc-padding-vertical: 0.6rem;
+
+  --site-card-bg: #ffffff;
+  --site-card-border: #e9ecef;
+  --site-soft-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
 }
 
 [data-theme='dark'] {
@@ -21,6 +33,10 @@
   --ifm-color-primary-lightest: #ffc0cb;
   --ifm-footer-background-color: #1c1c1c;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --site-card-bg: #1f1f23;
+  --site-card-border: #2a2a31;
+  --site-soft-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
 }
 
 button, a {
@@ -37,20 +53,122 @@ iframe {
   max-width: 100%;
 }
 
-.tabs-container {
-  background-color: var(--ifm-footer-background-color);
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+/* ---------- Markdown content polish ---------- */
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  letter-spacing: -0.01em;
 }
+
+.markdown h2 {
+  margin-top: 2.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.markdown h3 {
+  margin-top: 2rem;
+}
+
+.markdown a {
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.markdown a:hover {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+.markdown img {
+  display: block;
+  max-width: 100%;
+  margin: 1.25rem auto;
+  border-radius: 0.85rem;
+  box-shadow: var(--site-soft-shadow);
+}
+
+.markdown blockquote {
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: var(--ifm-color-emphasis-100);
+  border-inline-start: 4px solid var(--ifm-color-primary);
+  padding: 0.85rem 1.1rem;
+}
+
+/* ---------- Tables ---------- */
 
 table {
   width: 100%;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--site-soft-shadow);
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 table thead tr:first-child th:first-child {
   width: 50%;
 }
+
+table thead {
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    var(--ifm-color-primary-dark) 100%
+  );
+}
+
+table thead th {
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+table tbody tr:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* ---------- Admonitions ---------- */
+
+.theme-admonition,
+.alert {
+  border-radius: 0.85rem;
+  border-inline-start-width: 4px;
+  box-shadow: var(--site-soft-shadow);
+}
+
+/* ---------- Tabs container ---------- */
+
+.tabs-container {
+  background-color: var(--ifm-footer-background-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: var(--site-soft-shadow);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .tabs-container {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+.tabs__item {
+  border-radius: 0.65rem;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tabs__item--active {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  border-bottom-color: transparent;
+}
+
+/* ---------- Buttons (legacy image-button kept) ---------- */
 
 .image-button {
   filter: invert(0);
@@ -61,7 +179,114 @@ table thead tr:first-child th:first-child {
   box-shadow: 2px 2px 25px rgba(255, 255, 255, 1) !important;
 }
 
-/* Hiding the X on the search bar <button class="searchClearButton_qk4g">✕</button> */
+/* Hiding the X on the search bar */
 button[class*="searchClearButton"] {
   display: none;
+}
+
+/* ---------- Sidebar ---------- */
+
+.menu__link {
+  border-radius: 0.6rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.menu__link:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  background-color: color-mix(in srgb, var(--ifm-background-color) 80%, transparent);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-weight: 800;
+}
+
+/* ---------- Blog list cards ---------- */
+
+article[itemtype="https://schema.org/BlogPosting"] {
+  background: var(--site-card-bg);
+  border: 1px solid var(--site-card-border);
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem 1.25rem;
+  box-shadow: var(--site-soft-shadow);
+  transition: transform 0.18s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+article[itemtype="https://schema.org/BlogPosting"]:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--ifm-color-primary) 35%, var(--site-card-border));
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+}
+
+article[itemtype="https://schema.org/BlogPosting"] header h2 a {
+  color: var(--ifm-color-emphasis-900);
+  border-bottom: none;
+}
+
+article[itemtype="https://schema.org/BlogPosting"]:hover header h2 a {
+  color: var(--ifm-color-primary);
+}
+
+/* ---------- Pagination / read-more ---------- */
+
+.pagination-nav__link {
+  border-radius: 0.85rem;
+  transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--site-soft-shadow);
+}
+
+/* ---------- Mermaid / video rows in major pages ---------- */
+
+div[class*="docusaurus-mermaid-container"],
+.docusaurus-mermaid-container {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  box-shadow: var(--site-soft-shadow);
+}
+
+/* horizontal video row used in cne.mdx */
+.markdown > div[style*="overflowX: auto"] {
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x proximity;
+}
+
+.markdown > div[style*="overflowX: auto"] > iframe {
+  scroll-snap-align: start;
+  border-radius: 0.85rem;
+  box-shadow: var(--site-soft-shadow);
+  flex-shrink: 0;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* ---------- Anchor scroll offset for #majors and similar ---------- */
+
+[id] {
+  scroll-margin-top: 5rem;
 }
