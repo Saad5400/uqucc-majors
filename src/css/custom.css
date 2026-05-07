@@ -265,6 +265,36 @@ button[class*="searchClearButton"] {
   background: var(--ifm-background-color);
 }
 
+.navbar-sidebar,
+.navbar-sidebar__backdrop,
+.navbar-sidebar__brand,
+.navbar-sidebar__items {
+  z-index: 9999;
+}
+
+.navbar-sidebar {
+  background: var(--ifm-background-color);
+}
+
+.navbar-sidebar__items {
+  background: var(--ifm-background-color);
+}
+
+@media (max-width: 996px) {
+  .theme-doc-sidebar-container {
+    border-inline-end: 0;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  }
+
+  .navbar-sidebar__items {
+    width: min(90vw, 22rem);
+  }
+
+  .menu {
+    width: 100%;
+  }
+}
+
 .menu {
   padding: 1rem 0.75rem !important;
   font-size: 0.92rem;
