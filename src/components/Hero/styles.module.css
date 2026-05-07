@@ -134,11 +134,12 @@
     border-radius: 0.5rem;
   }
   .actions {
+    flex-direction: column;
     width: 100%;
   }
   .primaryBtn,
   .secondaryBtn {
-    flex: 1;
+    width: 100%;
     justify-content: center;
   }
 }

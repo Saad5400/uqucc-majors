@@ -1,12 +1,25 @@
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
-/**
-  Blog post title should be smaller on smaller devices
-**/
+h2.title {
+  font-size: 1.35rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+h2.title a {
+  border-bottom: none;
+}
+
 @media (max-width: 576px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  h2.title {
+    font-size: 1.25rem;
   }
 }

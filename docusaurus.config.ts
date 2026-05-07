@@ -45,6 +45,28 @@ const config: Config = {
         src: 'img/favicon.png',
         href: '/',
       },
+      items: [
+        {
+          to: '/',
+          label: 'الرئيسية',
+          position: 'right',
+        },
+        {
+          to: '/#majors',
+          label: 'استكشف التخصصات',
+          position: 'right',
+        },
+        {
+          to: '/blog',
+          label: 'تجارب الطلاب',
+          position: 'right',
+        },
+        {
+          to: '/contribute',
+          label: 'ساهم معنا',
+          position: 'right',
+        },
+      ],
     },
     blog: {
       sidebar: {
@@ -56,28 +78,21 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: 'الموقع',
+          title: 'ابدأ هنا',
           items: [
             { label: 'الرئيسية', to: '/' },
             { label: 'تجارب الطلاب', to: '/blog' },
             { label: 'كنز طلاب الحاسب', to: '/blog/other/students-kit' },
+            { label: 'ساهم معنا', to: '/contribute' },
           ],
         },
         {
-          title: 'التخصصات',
+          title: 'المحتوى',
           items: [
-            { label: 'علوم الحاسب الآلي', to: '/cs' },
-            { label: 'هندسة البرمجيات', to: '/se' },
-            { label: 'هندسة الحاسب والشبكات', to: '/cne' },
-            { label: 'الذكاء الاصطناعي', to: '/ai' },
-          ],
-        },
-        {
-          title: 'تخصصات أخرى',
-          items: [
-            { label: 'علم البيانات', to: '/ds' },
-            { label: 'الأمن السيبراني', to: '/sec' },
-            { label: 'تفاعل الإنسان مع الحاسب', to: '/hci' },
+            { label: 'المساهمون', to: '/contributors' },
+            { label: 'دليل المساهمة', to: '/contribute' },
+            { label: 'الرئيسية', to: '/' },
+            { label: 'تجارب الطلاب', to: '/blog' },
           ],
         },
         {
