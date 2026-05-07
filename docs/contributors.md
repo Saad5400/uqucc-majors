@@ -7,6 +7,7 @@ sidebar_position: 10
 ## الفريق المؤسس
 - قائد الحملة: [أنس المحمادي](https://x.com/itsanas121)  
 - مطور الموقع: [سعد بتوا (الكاتو)](https://x.com/SaadBatwa)
+- مصمم ومطور الموقع: [عبدالعزيز حافظ](https://www.linkedin.com/in/ahhafiz/)
 
 ## المنصات  
 - [منصة الكاتو لدورات البرمجة الخصوصية](http://elcato.sb.sa)  

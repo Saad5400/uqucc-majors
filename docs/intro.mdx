@@ -1,71 +1,30 @@
 ---
 sidebar_position: 1
 slug: /
+title: مقدمة
+hide_title: true
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import TelegramAdmonition from '@theme/Admonitions/TelegramAdmonition';
-import Button from '@theme/Buttons/Button';
+import Hero from '@site/src/components/Hero';
+import MajorList from '@site/src/components/MajorList';
+import InfoCards from '@site/src/components/InfoCards';
 
-# مقدمة
+<Hero
+  badge="مبادرة طلابية غير رسمية"
+  title="حملة اختيار التخصص"
+  subtitle="دليلك المختصر لاختيار تخصصك في كلية الحاسبات بجامعة أم القرى — من إعداد نخبة من الطلاب، يقدمون لك خلاصة تجاربهم بكل وضوح."
+  primaryCtaLabel="استكشف التخصصات"
+  primaryCtaHref="#majors"
+  secondaryCtaLabel="تجارب الطلاب"
+  secondaryCtaHref="/blog"
+/>
 
-:::note[هذه المبادرة مقدمة من **الطلاب فقط** بشكل غير رسمي وليست مرتبطة بالجامعة] 
-:::
+<InfoCards />
 
-<TelegramAdmonition />
+تحتوي كل صفحة على معلومات شاملة عن التخصص: تعريف مبسط، هل يناسبك التخصص؟ الخطة الدراسية، المهارات المطلوبة، آفاق التوظيف، تجارب طلابية، شائعات شائعة وتصحيحها، بالإضافة إلى نصائح عملية ومصادر مفيدة تساعدك تتخذ قرارك.
 
-:::tip[دليل طالب كلية الحاسبات]
-كل شي تحتاجه كطالب في الكلية: https://uqucc.sb.sa/
-:::
+## تخصصات كلية الحاسبات بجامعة أم القرى {#majors}
 
-حملة اختيار التخصص من إعداد نخبة من [طلاب كلية الحاسبات](/contributors)، يقدمون لكم خلاصة تجاربهم لمساعدتكم في اختيار التخصص المناسب بكل وضوح
-
-تحتوي كل صفحة على معلومات شاملة عن التخصص: تعريف مبسط، هل يناسبك التخصص؟ الخطة الدراسية، المهارات المطلوبة، آفاق التوظيف، تجارب طلابية، شائعات شائعة وتصحيحها، بالإضافة إلى نصائح عملية ومصادر مفيدة تساعدك تتخذ قرارك
-
-## تخصصات كلية الحاسبات بجامعة أم القرى
-
-<div
-  style={{
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-    gap: '1rem',
-  }}
->
-  <Button
-    label="علوم الحاسب الآلي"
-    link="cs"
-    imageSrc="/img/cs.png"
-  />
-  <Button
-    label="هندسة الحاسب والشبكات"
-    link="cne"
-    imageSrc="/img/cne.png"
-  />
-  <Button
-    label="هندسة البرمجيات"
-    link="se"
-    imageSrc="/img/se.png"
-  />
-  <Button
-    label="علم البيانات"
-    link="ds"
-    imageSrc="/img/ds.png"
-  />
-  <Button
-    label="الأمن السيبراني"
-    link="sec"
-    imageSrc="/img/sec.png"
-  />
-  <Button
-    label="الذكاء الاصطناعي"
-    link="ai"
-    imageSrc="/img/ai.png"
-  />
-  <Button
-    label="تفاعل الإنسان مع الحاسب"
-    link="hci"
-    imageSrc="/img/hci.png"
-  />
-</div>
-
+<MajorList />
