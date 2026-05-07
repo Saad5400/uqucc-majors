@@ -28,7 +28,7 @@ const majors: Major[] = [
     description: 'البرمجة، الخوارزميات، وتطوير حلول رقمية لمشكلات متنوعة.',
     href: '/cs',
     Icon: LuCpu,
-    accent: '#e85d04',
+    accent: '#1c1917',
   },
   {
     id: 'cne',
@@ -36,7 +36,7 @@ const majors: Major[] = [
     description: 'تصميم الأجهزة والأنظمة المدمجة وبنية الشبكات.',
     href: '/cne',
     Icon: LuNetwork,
-    accent: '#2563eb',
+    accent: '#292524',
   },
   {
     id: 'se',
@@ -44,7 +44,7 @@ const majors: Major[] = [
     description: 'بناء أنظمة برمجية متكاملة بمنهجية ومعايير جودة.',
     href: '/se',
     Icon: LuCode,
-    accent: '#16a34a',
+    accent: '#3f3f46',
   },
   {
     id: 'ds',
@@ -52,7 +52,7 @@ const majors: Major[] = [
     description: 'تحليل البيانات الضخمة واستخراج رؤى ذكية منها.',
     href: '/ds',
     Icon: LuDatabase,
-    accent: '#9333ea',
+    accent: '#44403c',
   },
   {
     id: 'sec',
@@ -60,7 +60,7 @@ const majors: Major[] = [
     description: 'حماية الأنظمة والشبكات من الاختراق والهجمات.',
     href: '/sec',
     Icon: LuShieldCheck,
-    accent: '#dc2626',
+    accent: '#52525b',
   },
   {
     id: 'ai',
@@ -68,7 +68,7 @@ const majors: Major[] = [
     description: 'تعلم الآلة والشبكات العصبية وبناء أنظمة ذكية.',
     href: '/ai',
     Icon: LuBrainCircuit,
-    accent: '#0891b2',
+    accent: '#57534e',
   },
   {
     id: 'hci',
@@ -76,16 +76,16 @@ const majors: Major[] = [
     description: 'تصميم تجارب وواجهات استخدام تركّز على المستخدم.',
     href: '/hci',
     Icon: LuMousePointerClick,
-    accent: '#db2777',
+    accent: '#71717a',
   },
 ];
 
 export default function MajorList() {
   return (
     <ul className={styles.list}>
-      {majors.map(({ id, label, description, href, Icon, accent }) => (
+      {majors.map(({ id, label, description, href, Icon }) => (
         <li key={id} className={styles.item}>
-          <Link to={href} className={styles.link} style={{ ['--accent' as any]: accent }}>
+          <Link to={href} className={styles.link}>
             <span className={styles.iconWrap} aria-hidden="true">
               <Icon size={26} />
             </span>

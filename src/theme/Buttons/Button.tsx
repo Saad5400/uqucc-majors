@@ -47,7 +47,15 @@ export default function Button({
         : {};
 
     return (
-        <div className='image-button' style={{ boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.4)', borderRadius: '1rem', overflow: 'hidden' }}>
+        <div
+            className='image-button'
+            style={{
+                border: '1px solid var(--ifm-color-emphasis-200)',
+                borderRadius: '0.5rem',
+                overflow: 'hidden',
+                background: 'var(--ifm-background-surface-color)',
+            }}
+        >
             <Link to={destination}>
                 <button
                     className={clsx(
@@ -68,7 +76,15 @@ export default function Button({
             <Link
                 to={destination}
                 className='image-button-label'
-                style={{color: 'black', width: '100%', textAlign: 'center', padding: '0.5rem', display: 'block', fontWeight: 'bold'}}
+                style={{
+                    color: 'var(--ifm-color-emphasis-900)',
+                    width: '100%',
+                    textAlign: 'center',
+                    padding: '0.6rem',
+                    display: 'block',
+                    fontWeight: 600,
+                    borderTop: '1px solid var(--ifm-color-emphasis-200)',
+                }}
             >
                 {label}
             </Link>

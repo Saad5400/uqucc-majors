@@ -52,25 +52,43 @@ const config: Config = {
       },
     },
     footer: {
-      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} - حملة اختيار التخصص`,
+      copyright: `© ${new Date().getFullYear()} حملة اختيار التخصص — جميع الحقوق محفوظة`,
       style: 'light',
       links: [
         {
-          label: 'الرئيسية',
-          to: '/',
+          title: 'الموقع',
+          items: [
+            { label: 'الرئيسية', to: '/' },
+            { label: 'تجارب الطلاب', to: '/blog' },
+            { label: 'كنز طلاب الحاسب', to: '/blog/other/students-kit' },
+          ],
         },
         {
-          label: 'تجارب الطلاب',
-          to: 'blog',
+          title: 'التخصصات',
+          items: [
+            { label: 'علوم الحاسب الآلي', to: '/cs' },
+            { label: 'هندسة البرمجيات', to: '/se' },
+            { label: 'هندسة الحاسب والشبكات', to: '/cne' },
+            { label: 'الذكاء الاصطناعي', to: '/ai' },
+          ],
         },
         {
-          label: 'مجتمع الحملة',
-          to: 'https://t.me/uquccmajors',
+          title: 'تخصصات أخرى',
+          items: [
+            { label: 'علم البيانات', to: '/ds' },
+            { label: 'الأمن السيبراني', to: '/sec' },
+            { label: 'تفاعل الإنسان مع الحاسب', to: '/hci' },
+          ],
         },
         {
-          label: 'كنز طلاب الحاسب',
-          to: '/blog/other/students-kit',
-        }
+          title: 'المجتمع',
+          items: [
+            { label: 'قروب المناقشة العام', href: 'https://t.me/uqucc_chat' },
+            { label: 'قناة الحملة', href: 'https://t.me/uquccmajors' },
+            { label: 'دليل طالب الحاسبات', href: 'https://uqucc.sb.sa/' },
+            { label: 'ساهم بالمشروع', to: '/contribute' },
+          ],
+        },
       ],
     },
   },
