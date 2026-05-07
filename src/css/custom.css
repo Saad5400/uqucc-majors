@@ -171,6 +171,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   box-shadow: none;
+  display: table;
 }
 
 table thead tr:first-child th:first-child {
@@ -179,6 +180,13 @@ table thead tr:first-child th:first-child {
 
 table thead {
   background: var(--site-accent-soft);
+}
+
+table th,
+table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.7rem 0.85rem;
 }
 
 table thead th {
@@ -215,7 +223,7 @@ table tbody tr:hover {
 
 .tabs-container {
   background-color: var(--site-accent-soft);
-  padding: 1rem;
+  padding: 0.75rem;
   border-radius: 0.5rem;
   box-shadow: none;
   border: 1px solid var(--ifm-color-emphasis-200);
@@ -225,21 +233,74 @@ table tbody tr:hover {
   border-color: var(--ifm-color-emphasis-300);
 }
 
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  margin-bottom: 0.85rem;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
 .tabs__item {
-  border-radius: 0.375rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
   font-weight: 500;
-  transition: background 0.15s ease, color 0.15s ease;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
-.tabs__item--active {
-  background: var(--ifm-color-emphasis-900);
-  color: var(--ifm-background-color) !important;
-  border-bottom-color: transparent;
-}
-
-[data-theme='dark'] .tabs__item--active {
+.tabs__item:hover {
   background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-1000);
+  border-color: var(--ifm-color-emphasis-200);
+  border-bottom-color: var(--ifm-color-emphasis-200);
+}
+
+.tabs__item--active,
+.tabs__item--active:hover {
+  background: var(--ifm-color-emphasis-1000);
   color: var(--ifm-background-color) !important;
+  border-color: var(--ifm-color-emphasis-1000);
+  border-bottom-color: var(--ifm-color-emphasis-1000);
+}
+
+.tabs__item svg,
+.tabs__item img {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
+[data-theme='dark'] .tabs {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .tabs__item--active,
+[data-theme='dark'] .tabs__item--active:hover {
+  background: var(--ifm-color-emphasis-1000);
+  color: var(--ifm-background-color) !important;
+  border-color: var(--ifm-color-emphasis-1000);
+}
+
+@media (max-width: 640px) {
+  .tabs__item {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+  }
 }
 
 /* ---------- Buttons (legacy image-button kept) ---------- */
@@ -258,6 +319,54 @@ button[class*="searchClearButton"] {
   display: none;
 }
 
+/* ---------- Search button (DocSearch / search-local) ---------- */
+.DocSearch-Button {
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.25rem;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.DocSearch-Button:hover,
+.DocSearch-Button:focus {
+  background: var(--ifm-color-emphasis-100) !important;
+  border-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-1000) !important;
+  box-shadow: none !important;
+}
+
+.DocSearch-Button .DocSearch-Search-Icon {
+  color: currentColor;
+  width: 18px;
+  height: 18px;
+  opacity: 0.85;
+}
+
+[data-theme='dark'] .DocSearch-Button {
+  background: transparent !important;
+  border-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-800) !important;
+}
+
+[data-theme='dark'] .DocSearch-Button:hover {
+  background: var(--ifm-color-emphasis-200) !important;
+}
+
+@media (max-width: 996px) {
+  .DocSearch-Button {
+    padding: 0.4rem;
+    margin: 0;
+  }
+  .DocSearch-Button .DocSearch-Button-Placeholder,
+  .DocSearch-Button .DocSearch-Button-Keys {
+    display: none;
+  }
+}
+
 /* ---------- Docs Sidebar (right side in RTL) ---------- */
 
 .theme-doc-sidebar-container {
@@ -265,18 +374,34 @@ button[class*="searchClearButton"] {
   background: var(--ifm-background-color);
 }
 
-.navbar-sidebar,
-.navbar-sidebar__backdrop,
-.navbar-sidebar__brand,
-.navbar-sidebar__items {
-  z-index: 9999;
+.navbar {
+  z-index: 200;
 }
 
+/* Mobile slide-in sidebar — keep Docusaurus's default position/transform,
+   only override stacking + colors so it doesn't render behind the page. */
 .navbar-sidebar {
+  z-index: 250;
+  background: var(--ifm-background-color) !important;
+  box-shadow: var(--site-float-shadow);
+  visibility: visible;
+}
+
+.navbar-sidebar__backdrop {
+  z-index: 240;
+  background-color: rgba(12, 10, 9, 0.45);
+}
+
+.navbar-sidebar__brand {
+  background: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.navbar-sidebar__items {
   background: var(--ifm-background-color);
 }
 
-.navbar-sidebar__items {
+.navbar-sidebar__item {
   background: var(--ifm-background-color);
 }
 
@@ -286,8 +411,8 @@ button[class*="searchClearButton"] {
     border-bottom: 1px solid var(--ifm-color-emphasis-200);
   }
 
-  .navbar-sidebar__items {
-    width: min(90vw, 22rem);
+  .navbar-sidebar {
+    width: min(86vw, 22rem);
   }
 
   .menu {
@@ -433,6 +558,8 @@ article[itemtype="https://schema.org/BlogPosting"] {
   padding: 1.5rem 1.5rem 1.25rem;
   box-shadow: var(--site-float-shadow);
   transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 article[itemtype="https://schema.org/BlogPosting"]:hover {
@@ -448,6 +575,71 @@ article[itemtype="https://schema.org/BlogPosting"] header h2 a {
 
 article[itemtype="https://schema.org/BlogPosting"]:hover header h2 a {
   color: var(--ifm-color-emphasis-1000);
+}
+
+/* Blog list page (/blog): render the stack of articles as a responsive grid.
+   The articles are direct children of <main> with class "margin-bottom--xl"; siblings
+   include the page <header>, year-group headings, and <nav class="pagination-nav">. */
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > article[itemtype="https://schema.org/BlogPosting"] {
+  margin-bottom: 0 !important;
+  height: 100%;
+}
+
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > header,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > h2,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > h3,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > nav,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) > .pagination-nav {
+  grid-column: 1 / -1;
+}
+
+article[itemtype="https://schema.org/BlogPosting"] header {
+  margin-bottom: 0.5rem;
+}
+
+article[itemtype="https://schema.org/BlogPosting"] > footer {
+  margin-top: auto;
+  padding-top: 0.85rem;
+}
+
+/* List-view card: trim and shrink the markdown excerpt so cards stay even */
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.7;
+  max-height: 7.5em;
+  overflow: hidden;
+  position: relative;
+  -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 60%, transparent 100%);
+}
+
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown > * {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h1,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h2,
+main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h3 {
+  font-size: 0.95rem;
+  margin-top: 0;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 540px) {
+  main:has(> article[itemtype="https://schema.org/BlogPosting"]) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /* ---------- Pagination / read-more ---------- */
