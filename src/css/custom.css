@@ -381,6 +381,9 @@ button[class*="searchClearButton"] {
 /* Mobile slide-in sidebar — keep Docusaurus's default position/transform,
    only override stacking + colors so it doesn't render behind the page. */
 .navbar-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   z-index: 250;
   background: var(--ifm-background-color) !important;
   box-shadow: var(--site-float-shadow);
@@ -535,11 +538,97 @@ button[class*="searchClearButton"] {
 /* ---------- Navbar ---------- */
 
 .navbar {
+  background-color: transparent;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   backdrop-filter: saturate(160%) blur(10px);
   -webkit-backdrop-filter: saturate(160%) blur(10px);
   background-color: color-mix(in srgb, var(--ifm-background-color) 80%, transparent);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-  box-shadow: none;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Spread header items: Logo (Right), Links (Center), Search (Left) */
+@media (min-width: 997px) {
+  .navbar__inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar__items {
+    flex: 0 0 auto; /* Logo naturally hugs the start edge (Right in RTL) */
+  }
+
+  .navbar__items--right {
+    flex: 1; /* Take the rest of the header space */
+    display: flex;
+    align-items: center;
+  }
+
+  /* Push Links to the center, and Search to the far left edge */
+  .navbar__items--right > a.navbar__item:first-of-type {
+    margin-inline-start: auto; /* Push links away from Logo */
+  }
+  
+  .navbar__items--right > a.navbar__item:last-of-type {
+    margin-inline-end: auto; /* Push Search & Toggle to the far left */
+  }
+}
+
+.custom-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove default margins so the wrapper exactly fits the search bar */
+.custom-search-wrapper > .navbar__search {
+  margin: 0 !important;
+}
+
+.search-icon-lucide {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Center in mobile button */
+  transform: translate(-50%, -50%);
+  color: var(--ifm-color-emphasis-600);
+  pointer-events: none;
+  z-index: 10;
+}
+
+@media (min-width: 997px) {
+  html[dir="rtl"] .search-icon-lucide {
+    left: auto;
+    right: 12px; /* RTL: Place icon on the right */
+    transform: translateY(-50%);
+  }
+  
+  html[dir="ltr"] .search-icon-lucide {
+    left: 12px; /* LTR: Place icon on the left */
+    transform: translateY(-50%);
+  }
+}
+
+/* Hide the default background image injected by docusaurus-search-local to prevent double icons */
+.navbar__search-input {
+  background-image: none !important;
+}
+
+html[dir="rtl"] .navbar__search-input {
+  padding-right: 2.25rem !important; /* Make room for the right-aligned icon */
+  padding-left: 0.5rem !important;
+}
+
+html[dir="ltr"] .navbar__search-input {
+  padding-left: 2.25rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .navbar__title {
@@ -549,7 +638,7 @@ button[class*="searchClearButton"] {
 
 /* ---------- Blog list cards ---------- */
 
-article[itemtype="https://schema.org/BlogPosting"] {
+article.blog-list-item {
   background: var(--site-card-bg);
   -webkit-backdrop-filter: var(--site-glass-blur);
   backdrop-filter: var(--site-glass-blur);
@@ -562,55 +651,55 @@ article[itemtype="https://schema.org/BlogPosting"] {
   flex-direction: column;
 }
 
-article[itemtype="https://schema.org/BlogPosting"]:hover {
+article.blog-list-item:hover {
   border-color: var(--ifm-color-emphasis-400);
   transform: translateY(-2px);
   box-shadow: var(--site-float-shadow-hover);
 }
 
-article[itemtype="https://schema.org/BlogPosting"] header h2 a {
+article.blog-list-item header h2 a {
   color: var(--ifm-color-emphasis-900);
   border-bottom: none;
 }
 
-article[itemtype="https://schema.org/BlogPosting"]:hover header h2 a {
+article.blog-list-item:hover header h2 a {
   color: var(--ifm-color-emphasis-1000);
 }
 
 /* Blog list page (/blog): render the stack of articles as a responsive grid.
    The articles are direct children of <main> with class "margin-bottom--xl"; siblings
    include the page <header>, year-group headings, and <nav class="pagination-nav">. */
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) {
+main:has(> article.blog-list-item) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.25rem;
   align-items: stretch;
 }
 
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > article[itemtype="https://schema.org/BlogPosting"] {
+main:has(> article.blog-list-item) > article.blog-list-item {
   margin-bottom: 0 !important;
   height: 100%;
 }
 
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > header,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > h2,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > h3,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > nav,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) > .pagination-nav {
+main:has(> article.blog-list-item) > header,
+main:has(> article.blog-list-item) > h2,
+main:has(> article.blog-list-item) > h3,
+main:has(> article.blog-list-item) > nav,
+main:has(> article.blog-list-item) > .pagination-nav {
   grid-column: 1 / -1;
 }
 
-article[itemtype="https://schema.org/BlogPosting"] header {
+article.blog-list-item header {
   margin-bottom: 0.5rem;
 }
 
-article[itemtype="https://schema.org/BlogPosting"] > footer {
+article.blog-list-item > footer {
   margin-top: auto;
   padding-top: 0.85rem;
 }
 
 /* List-view card: trim and shrink the markdown excerpt so cards stay even */
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown {
+main:has(> article.blog-list-item) article > .markdown {
   font-size: 0.9rem;
   color: var(--ifm-color-emphasis-700);
   line-height: 1.7;
@@ -621,14 +710,14 @@ main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdo
   mask-image: linear-gradient(180deg, #000 60%, transparent 100%);
 }
 
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown > * {
+main:has(> article.blog-list-item) article > .markdown > * {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h1,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h2,
-main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdown h3 {
+main:has(> article.blog-list-item) article > .markdown h1,
+main:has(> article.blog-list-item) article > .markdown h2,
+main:has(> article.blog-list-item) article > .markdown h3 {
   font-size: 0.95rem;
   margin-top: 0;
   border: none;
@@ -636,7 +725,7 @@ main:has(> article[itemtype="https://schema.org/BlogPosting"]) article > .markdo
 }
 
 @media (max-width: 540px) {
-  main:has(> article[itemtype="https://schema.org/BlogPosting"]) {
+  main:has(> article.blog-list-item) {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
