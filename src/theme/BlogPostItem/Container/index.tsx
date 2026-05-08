@@ -5,5 +5,14 @@ export default function BlogPostItemContainer({
   children,
   className,
 }: Props): ReactNode {
-  return <article className={className}>{children}</article>;
+  return (
+    <article
+      className={className}
+      itemProp="blogPost"
+      itemScope
+      itemType="https://schema.org/BlogPosting"
+    >
+      {children}
+    </article>
+  );
 }

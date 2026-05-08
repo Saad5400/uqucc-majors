@@ -381,6 +381,9 @@ button[class*="searchClearButton"] {
 /* Mobile slide-in sidebar — keep Docusaurus's default position/transform,
    only override stacking + colors so it doesn't render behind the page. */
 .navbar-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   z-index: 250;
   background: var(--ifm-background-color) !important;
   box-shadow: var(--site-float-shadow);
@@ -535,11 +538,20 @@ button[class*="searchClearButton"] {
 /* ---------- Navbar ---------- */
 
 .navbar {
+  background-color: transparent;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   backdrop-filter: saturate(160%) blur(10px);
   -webkit-backdrop-filter: saturate(160%) blur(10px);
   background-color: color-mix(in srgb, var(--ifm-background-color) 80%, transparent);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-  box-shadow: none;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .navbar__title {
