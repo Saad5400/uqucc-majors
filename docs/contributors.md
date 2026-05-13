@@ -5,7 +5,7 @@ sidebar_position: 10
 # المساهمون
 
 ## الفريق المؤسس
-- قائد الحملة: [أنس المحمادي](https://x.com/itsanas121)  
+- قائد الحملة: [أنس المحمادي](https://www.linkedin.com/in/anas-almehmadi/)  
 - مطور الموقع: [سعد بتوا (الكاتو)](https://x.com/SaadBatwa)
 - مصمم ومطور الموقع: [عبدالعزيز حافظ](https://www.linkedin.com/in/ahhafiz/)
 
