@@ -9,11 +9,11 @@
 1. قم بعمل Fork للمشروع إلى حسابك على GitHub
 2. قم بتنزيل النسخة المحلية باستخدام الأمر:
    ```
-   git clone https://github.com/YOUR-USERNAME/uqucis-majors.git
+   git clone https://github.com/YOUR-USERNAME/uqucc-majors.git
    ```
 3. قم بإضافة المستودع الأصلي كـ remote:
    ```
-   git remote add upstream https://github.com/Saad5400/uqucis-majors.git
+   git remote add upstream https://github.com/Saad5400/uqucc-majors.git
    ```
 4. قم بتثبيت التبعيات:
    ```

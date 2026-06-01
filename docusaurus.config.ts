@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'http://uqucis-majors.sb.sa',
+  url: 'https://uqucc-majors.sb.sa',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Saad5400', // Usually your GitHub org/user name.
-  projectName: 'uqucis-majors', // Usually your repo name.
+  projectName: 'uqucc-majors', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -114,7 +114,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Saad5400/uqucis-majors/tree/main/',
+          editUrl: 'https://github.com/Saad5400/uqucc-majors/tree/main/',
           routeBasePath: '/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -126,7 +126,7 @@ const config: Config = {
             xslt: true,
           },
           postsPerPage: 'ALL',
-          editUrl: 'https://github.com/Saad5400/uqucis-majors/tree/main/',
+          editUrl: 'https://github.com/Saad5400/uqucc-majors/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'warn',
