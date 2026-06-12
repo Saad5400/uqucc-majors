@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'تخصصات الحاسب',
-  tagline: 'تعرف ع تخصصات الحاسب',
+  tagline: 'تعرف على تخصصات الحاسب',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -78,30 +78,18 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: 'ابدأ هنا',
+          title: 'روابط عامة',
           items: [
             { label: 'الرئيسية', to: '/' },
             { label: 'تجارب الطلاب', to: '/blog' },
             { label: 'كنز طلاب الحاسب', to: '/blog/other/students-kit' },
-            { label: 'ساهم معنا', to: '/contribute' },
           ],
         },
         {
-          title: 'المحتوى',
+          title: 'المساهمة',
           items: [
             { label: 'المساهمون', to: '/contributors' },
             { label: 'دليل المساهمة', to: '/contribute' },
-            { label: 'الرئيسية', to: '/' },
-            { label: 'تجارب الطلاب', to: '/blog' },
-          ],
-        },
-        {
-          title: 'المجتمع',
-          items: [
-            { label: 'قروب المناقشة العام', href: 'https://t.me/uqucc_chat' },
-            { label: 'قناة الحملة', href: 'https://t.me/uquccmajors' },
-            { label: 'دليل طالب الحاسبات', href: 'https://uqucc.sb.sa/' },
-            { label: 'ساهم بالمشروع', to: '/contribute' },
           ],
         },
       ],
