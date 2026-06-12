@@ -10,6 +10,22 @@
   --ifm-color-primary-lighter: #57534e;
   --ifm-color-primary-lightest: #78716c;
 
+  /* Emphasis scale — warm stone instead of Infima's cool grays.
+     Infima flips this scale automatically in dark mode (emphasis-100 becomes a
+     dark surface tint, emphasis-900 near-white), so component rules must NOT
+     re-flip values under [data-theme='dark']. */
+  --ifm-color-emphasis-0: #ffffff;
+  --ifm-color-emphasis-100: #f5f5f4;
+  --ifm-color-emphasis-200: #e7e5e4;
+  --ifm-color-emphasis-300: #d6d3d1;
+  --ifm-color-emphasis-400: #a8a29e;
+  --ifm-color-emphasis-500: #78716c;
+  --ifm-color-emphasis-600: #57534e;
+  --ifm-color-emphasis-700: #44403c;
+  --ifm-color-emphasis-800: #292524;
+  --ifm-color-emphasis-900: #1c1917;
+  --ifm-color-emphasis-1000: #0c0a09;
+
   /* Surfaces */
   --ifm-background-color: #fafaf9;
   --ifm-background-surface-color: #ffffff;
@@ -52,7 +68,10 @@
   --site-glass-blur: saturate(180%) blur(20px);
 }
 
-[data-theme='dark'] {
+/* html prefix is required: Infima defines its dark-mode variables on
+   html[data-theme='dark'], which outranks a bare [data-theme='dark'] —
+   without it these tokens silently lose to Infima's cool-gray defaults. */
+html[data-theme='dark'] {
   /* Neutral primary scale — light stone tones */
   --ifm-color-primary: #e7e5e4;
   --ifm-color-primary-dark: #d6d3d1;
@@ -61,6 +80,19 @@
   --ifm-color-primary-light: #f5f5f4;
   --ifm-color-primary-lighter: #fafaf9;
   --ifm-color-primary-lightest: #ffffff;
+
+  /* Emphasis scale — flipped warm stone (mirrors Infima's dark-mode flip) */
+  --ifm-color-emphasis-0: #0c0a09;
+  --ifm-color-emphasis-100: #1c1917;
+  --ifm-color-emphasis-200: #292524;
+  --ifm-color-emphasis-300: #44403c;
+  --ifm-color-emphasis-400: #57534e;
+  --ifm-color-emphasis-500: #78716c;
+  --ifm-color-emphasis-600: #a8a29e;
+  --ifm-color-emphasis-700: #d6d3d1;
+  --ifm-color-emphasis-800: #e7e5e4;
+  --ifm-color-emphasis-900: #f5f5f4;
+  --ifm-color-emphasis-1000: #ffffff;
 
   /* Surfaces */
   --ifm-background-color: #0c0a09;
@@ -135,14 +167,11 @@ iframe {
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
+/* emphasis-900 auto-resolves to near-black in light and near-white in dark —
+   no [data-theme='dark'] override needed (re-flipping made hover invisible). */
 .markdown a:hover {
   border-bottom-color: var(--ifm-color-emphasis-900);
   color: var(--ifm-color-emphasis-900);
-}
-
-[data-theme='dark'] .markdown a:hover {
-  border-bottom-color: var(--ifm-color-emphasis-100);
-  color: var(--ifm-color-emphasis-100);
 }
 
 .markdown img {
@@ -211,11 +240,6 @@ table tbody tr:hover {
   border-radius: 0.5rem;
   border-inline-start-width: 2px;
   box-shadow: none;
-  background: var(--site-accent-soft);
-}
-
-[data-theme='dark'] .theme-admonition,
-[data-theme='dark'] .alert {
   background: var(--site-accent-soft);
 }
 
@@ -289,11 +313,12 @@ table tbody tr:hover {
   border-color: var(--ifm-color-emphasis-300);
 }
 
-[data-theme='dark'] .tabs__item--active,
-[data-theme='dark'] .tabs__item--active:hover {
-  background: var(--ifm-color-emphasis-1000);
-  color: var(--ifm-background-color) !important;
-  border-color: var(--ifm-color-emphasis-1000);
+/* In dark mode the tabs strip itself is emphasis-100-toned, so hover needs
+   one step more contrast to stay visible. */
+[data-theme='dark'] .tabs__item:not(.tabs__item--active):hover {
+  background: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-300);
+  border-bottom-color: var(--ifm-color-emphasis-300);
 }
 
 @media (max-width: 640px) {
@@ -452,11 +477,6 @@ button[class*="searchClearButton"] {
   font-weight: 600;
 }
 
-[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
-  background: var(--ifm-color-emphasis-200);
-  color: var(--ifm-color-emphasis-1000);
-}
-
 .menu__caret {
   transition: transform 0.2s ease;
 }
@@ -525,14 +545,6 @@ button[class*="searchClearButton"] {
   height: 60%;
   background: var(--ifm-color-emphasis-1000);
   border-radius: 999px;
-}
-
-[data-theme='dark'] .table-of-contents__link--active {
-  background: var(--ifm-color-emphasis-200);
-}
-
-[data-theme='dark'] .table-of-contents__link--active::before {
-  background: var(--ifm-color-emphasis-1000);
 }
 
 /* ---------- Navbar ---------- */
@@ -834,13 +846,6 @@ div[class*="docusaurus-mermaid-container"],
   color: var(--ifm-color-emphasis-600);
   font-size: 0.825rem;
   font-weight: 400;
-}
-
-[data-theme='dark'] .footer {
-  --ifm-footer-color: var(--ifm-color-emphasis-700);
-  --ifm-footer-link-color: var(--ifm-color-emphasis-700);
-  --ifm-footer-link-hover-color: var(--ifm-color-emphasis-1000);
-  --ifm-footer-title-color: var(--ifm-color-emphasis-1000);
 }
 
 /* ---------- Code blocks ---------- */
