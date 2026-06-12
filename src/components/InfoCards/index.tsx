@@ -17,28 +17,27 @@ const cards: Card[] = [
   {
     id: 'unofficial',
     Icon: LuInfo,
-    title: 'مبادرة طلابية غير رسمية',
-    description:
-      'هذه المبادرة مقدمة من الطلاب فقط بشكل غير رسمي وليست مرتبطة بالجامعة.',
+    title: 'مبادرة طلابية مستقلة',
+    description: 'دليل معرفي مقدم من الطلاب بشكل مستقل، يهدف لنقل التجارب الواقعية بكل شفافية وبدون قيود أكاديمية.'
   },
   {
-    id: 'telegram',
+    id: 'student-kit',
+    Icon: LuExternalLink, 
+    title: 'كنز طلاب الحاسب',
+    description: 'مجموعة متكاملة من المصادر، الأدوات، والمواقع المساعدة التي يحتاجها كل طالب حاسب خلال مسيرته الدراسية.',
+    href: '/blog/other/students-kit',
+    ctaLabel: 'تصفح المصادر',
+    external: false
+  },
+  {
+    id: 'contribute',
     Icon: LuMessageCircle,
-    title: 'انضم إلى قروب المناقشة العام',
-    description: 'مجتمع طلاب كلية الحاسبات للنقاش وتبادل الخبرات والأسئلة.',
-    href: 'https://t.me/uqucc_chat',
-    ctaLabel: 'انضم الآن',
-    external: true,
-  },
-  {
-    id: 'guide',
-    Icon: LuExternalLink,
-    title: 'دليل طالب كلية الحاسبات',
-    description: 'كل ما تحتاجه كطالب في الكلية في مكان واحد منظّم.',
-    href: 'https://uqucc.sb.sa/',
-    ctaLabel: 'افتح الدليل',
-    external: true,
-  },
+    title: 'ساهم في إثراء المحتوى',
+    description: 'لأن المعرفة تتطور بالتعاون؛ نرحب بمشاركتك لتجربتك أو إضافة وتعديل أي معلومات لإفادة زملائك الطلاب.',
+    href: '/contribute',
+    ctaLabel: 'شاركنا تجربتك',
+    external: false
+  }
 ];
 
 export default function InfoCards() {
