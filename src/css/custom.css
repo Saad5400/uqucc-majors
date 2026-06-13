@@ -161,7 +161,7 @@ iframe {
   margin-top: 2rem;
 }
 
-.markdown a {
+.markdown a:not([class]) {
   text-decoration: none;
   border-bottom: 1px solid var(--ifm-color-emphasis-300);
   transition: border-color 0.15s ease, color 0.15s ease;
@@ -169,7 +169,7 @@ iframe {
 
 /* emphasis-900 auto-resolves to near-black in light and near-white in dark —
    no [data-theme='dark'] override needed (re-flipping made hover invisible). */
-.markdown a:hover {
+.markdown a:not([class]):hover {
   border-bottom-color: var(--ifm-color-emphasis-900);
   color: var(--ifm-color-emphasis-900);
 }
