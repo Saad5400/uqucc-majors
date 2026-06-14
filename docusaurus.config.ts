@@ -48,11 +48,15 @@ const config: Config = {
     },
     {
       tagName: 'link',
+      attributes: { rel: 'icon', type: 'image/svg+xml', href: '/img/favicon.svg' },
+    },
+    {
+      tagName: 'link',
       attributes: { rel: 'manifest', href: '/site.webmanifest' },
     },
     {
       tagName: 'meta',
-      attributes: { name: 'theme-color', content: '#0a0a23' },
+      attributes: { name: 'theme-color', content: '#0E3B38' },
     },
   ],
 
@@ -65,7 +69,7 @@ const config: Config = {
     ],
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: false,
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
     navbar: {

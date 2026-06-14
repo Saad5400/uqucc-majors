@@ -6,8 +6,8 @@
   "dir": "rtl",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a23",
-  "theme_color": "#0a0a23",
+  "background_color": "#FBF7F0",
+  "theme_color": "#0E3B38",
   "icons": [
     {
       "src": "/img/android-chrome-192x192.png",
