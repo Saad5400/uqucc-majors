@@ -51,12 +51,8 @@ const config: Config = {
       attributes: { rel: 'manifest', href: '/site.webmanifest' },
     },
     {
-      tagName: 'link',
-      attributes: { rel: 'icon', type: 'image/svg+xml', href: '/img/favicon.svg' },
-    },
-    {
       tagName: 'meta',
-      attributes: { name: 'theme-color', content: '#0E3B38' },
+      attributes: { name: 'theme-color', content: '#0a0a23' },
     },
   ],
 
@@ -69,17 +65,15 @@ const config: Config = {
     ],
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: false,
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: '',
+      title: 'حملة اختيار التخصص',
       logo: {
-        alt: 'تخصصات الحاسب',
-        src: 'img/logo.png',
-        srcDark: 'img/logo-dark.png',
+        alt: 'My Site Logo',
+        src: 'img/favicon.png',
         href: '/',
-        height: 34,
       },
       items: [
         {

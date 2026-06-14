@@ -142,15 +142,11 @@ async function renderOgImage(title, opts = {}) {
   faintRing(470, 115);
   dotGrid(ctx, 55, 150, 3, 3, 22, 4.5, GOLD);
 
-  // faint motif bottom-right behind the mark
-  routePath(ctx, [[1240, 470], [1090, 470], [1055, 505], [950, 505]], faintGreen, 4);
-  routePath(ctx, [[980, 590], [1090, 590], [1120, 560], [1240, 560]], faintGreen, 4);
-  dotGrid(ctx, 1095, 560, 4, 3, 16, 3.5, 'rgba(214,177,91,0.55)');
+  // faint motif bottom-right (subtle texture)
+  routePath(ctx, [[1240, 500], [1090, 500], [1055, 535], [930, 535]], faintGreen, 4);
+  dotGrid(ctx, 1095, 560, 4, 3, 16, 3.5, 'rgba(214,177,91,0.45)');
 
-  // --- big brand mark (right) ---
-  drawMark(ctx, 935, 300, 250, GREEN, GOLD);
-
-  // --- logo lockup (top-right, green-on-transparent) ---
+  // --- logo lockup (top-right, green-on-transparent) — the single logo ---
   if (fs.existsSync(LOGO_LOCKUP)) {
     try {
       const logo = await loadImage(LOGO_LOCKUP);
@@ -163,7 +159,7 @@ async function renderOgImage(title, opts = {}) {
   }
 
   const rightEdge = 1128; // page right margin for logo / pill / divider
-  const titleRight = 715; // title right-aligns further left, clear of the mark
+  const titleRight = 1128; // title right-aligns to the margin (no mark on the right now)
 
   // --- gold category pill (right-aligned) ---
   ctx.direction = 'rtl';
@@ -213,7 +209,7 @@ async function renderOgImage(title, opts = {}) {
 
   // --- title (right-aligned RTL) sized to fit a fixed vertical band ---
   const clean = (title || 'تخصصات الحاسب').replace(/[‐-―]/g, '-').replace(/\s+/g, ' ').trim();
-  const maxTextWidth = 575;
+  const maxTextWidth = 920;
   const bandTop = 300;
   const bandBottom = 548;
   const bandH = bandBottom - bandTop;
