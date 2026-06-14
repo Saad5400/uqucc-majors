@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uqucc-majors.sb.sa/sitemap.xml
