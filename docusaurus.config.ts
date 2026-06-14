@@ -48,10 +48,6 @@ const config: Config = {
     },
     {
       tagName: 'link',
-      attributes: { rel: 'icon', type: 'image/svg+xml', href: '/img/favicon.svg' },
-    },
-    {
-      tagName: 'link',
       attributes: { rel: 'manifest', href: '/site.webmanifest' },
     },
     {
@@ -73,11 +69,12 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'حملة اختيار التخصص',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/favicon.png',
+        alt: 'تخصصات الحاسب',
+        src: 'img/logo.png',
         href: '/',
+        height: 32,
       },
       items: [
         {
