@@ -1,19 +1,28 @@
-// Renders a 1200x630 branded Open Graph image matching the "تخصصات الحاسب"
-// brand: cream canvas, faint circuit-path motif, the git-branch brand mark,
-// the composited logo lockup, a gold category pill, and the dynamic post title
-// in IBM Plex Sans Arabic. Uses @napi-rs/canvas (HarfBuzz shaping) so Arabic
-// RTL text joins correctly (Satori does not shape Arabic reliably).
+// Renders a 1200x630 branded Open Graph image that matches the live site's
+// dark theme ("تخصصات الحاسب"): a near-black warm-stone canvas, a faint dotted
+// glow + circuit motif, the cream/gold logo lockup, a subtle category pill, and
+// the dynamic page title in IBM Plex Sans Arabic. A dedicated `home` variant
+// renders the brand hero used for the site root.
+//
+// Uses @napi-rs/canvas (HarfBuzz shaping) so Arabic RTL text joins correctly
+// (Satori does not shape Arabic reliably).
 const path = require('path');
 const fs = require('fs');
 const { createCanvas, GlobalFonts, loadImage } = require('@napi-rs/canvas');
 
 const FONTS = path.join(__dirname, 'fonts');
-const LOGO_LOCKUP = path.join(__dirname, 'assets', 'logo-lockup.png');
+// Cream/gold lockup suited to a dark canvas (mirrors the site's dark navbar logo).
+const LOGO_LOCKUP = path.join(__dirname, 'assets', 'logo-lockup-dark.png');
 
-// Brand palette
-const GREEN = '#0E3B38';
-const GOLD = '#D6B15B';
-const CREAM = '#FBF7F0';
+// Dark theme palette — sourced from src/css/custom.css html[data-theme='dark'].
+const BG = '#0c0a09'; // --ifm-background-color
+const SURFACE = '#1c1917'; // --ifm-background-surface-color
+const SURFACE_2 = '#292524'; // --ifm-color-emphasis-200 (badge bg)
+const BORDER = '#44403c'; // --ifm-color-emphasis-300
+const INK = '#f5f5f4'; // near-white heading text
+const INK_SOFT = '#d6d3d1'; // --ifm-color-emphasis-700
+const MUTED = '#a8a29e'; // --site-text-muted
+const GOLD = '#D6B15B'; // brand accent (logo gold)
 
 const STACK_BOLD = 'PlexArBold, OGLatinBold';
 const STACK_SEMI = 'PlexArSemi, OGLatin';
@@ -38,39 +47,7 @@ function registerFonts() {
 const WIDTH = 1200;
 const HEIGHT = 630;
 const SITE = 'uqucc-majors.sb.sa';
-
-// Draw the git-branch brand mark in a `size` box with top-left at (x, y).
-// Geometry mirrors static/img/brand-mark.svg (viewBox 0 0 64 64).
-function drawMark(ctx, x, y, size, green, gold) {
-  const s = size / 64;
-  ctx.save();
-  ctx.translate(x, y);
-  ctx.scale(s, s);
-  ctx.lineCap = 'round';
-  ctx.lineJoin = 'round';
-  ctx.strokeStyle = green;
-  ctx.lineWidth = 5.5;
-  ctx.beginPath();
-  ctx.moveTo(36.5, 19);
-  ctx.bezierCurveTo(39, 28, 43, 34, 44, 45.5);
-  ctx.stroke();
-  ctx.strokeStyle = gold;
-  ctx.beginPath();
-  ctx.moveTo(40.5, 30);
-  ctx.bezierCurveTo(33, 39, 28, 44, 25, 44.6);
-  ctx.stroke();
-  ctx.lineWidth = 5;
-  const ring = (rx, ry, col) => {
-    ctx.strokeStyle = col;
-    ctx.beginPath();
-    ctx.arc(rx, ry, 6.3, 0, Math.PI * 2);
-    ctx.stroke();
-  };
-  ring(36, 12.6, green);
-  ring(44.6, 51.6, green);
-  ring(18.8, 44.8, gold);
-  ctx.restore();
-}
+const TAGLINE = 'دليلك المختصر لاختيار تخصصك في كلية الحاسبات';
 
 function routePath(ctx, pts, color, width) {
   ctx.save();
@@ -115,53 +92,140 @@ function wrapText(ctx, text, maxWidth) {
   return lines;
 }
 
-async function renderOgImage(title, opts = {}) {
-  registerFonts();
-  const eyebrow = opts.eyebrow || 'دليل التخصصات';
-  const canvas = createCanvas(WIDTH, HEIGHT);
-  const ctx = canvas.getContext('2d');
-
-  // Cream canvas
-  ctx.fillStyle = CREAM;
+// Paints the shared dark canvas: warm-near-black fill, an even dotted glow
+// (mirrors the Hero .glow), and faint circuit traces in the corners.
+function paintBackground(ctx) {
+  ctx.fillStyle = BG;
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-  // --- faint circuit motif (top-left) ---
-  const faintGreen = 'rgba(14,59,56,0.10)';
-  routePath(ctx, [[-20, 60], [150, 60], [185, 95], [300, 95]], faintGreen, 4);
-  routePath(ctx, [[-20, 120], [90, 120], [120, 150], [360, 150], [395, 115], [470, 115]], faintGreen, 4);
-  const faintRing = (x, y) => {
+  // Even dotted texture, like the homepage hero glow (rgba(255,255,255,0.04)).
+  ctx.save();
+  ctx.fillStyle = 'rgba(245,245,244,0.045)';
+  for (let y = 26; y < HEIGHT; y += 26) {
+    for (let x = 26; x < WIDTH; x += 26) {
+      ctx.beginPath();
+      ctx.arc(x, y, 1.6, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+  ctx.restore();
+
+  // Faint circuit motif (top-left + bottom-right) — brand texture in light ink.
+  const faint = 'rgba(245,245,244,0.10)';
+  routePath(ctx, [[-20, 60], [150, 60], [185, 95], [300, 95]], faint, 4);
+  routePath(ctx, [[-20, 120], [90, 120], [120, 150], [360, 150], [395, 115], [470, 115]], faint, 4);
+  const ring = (x, y, color) => {
     ctx.save();
-    ctx.strokeStyle = faintGreen;
+    ctx.strokeStyle = color;
     ctx.lineWidth = 4;
     ctx.beginPath();
     ctx.arc(x, y, 11, 0, Math.PI * 2);
     ctx.stroke();
     ctx.restore();
   };
-  faintRing(300, 95);
-  faintRing(470, 115);
-  dotGrid(ctx, 55, 150, 3, 3, 22, 4.5, GOLD);
+  ring(300, 95, faint);
+  ring(470, 115, faint);
+  dotGrid(ctx, 55, 150, 3, 3, 22, 4.5, 'rgba(214,177,91,0.55)');
 
-  // faint motif bottom-right (subtle texture)
-  routePath(ctx, [[1240, 500], [1090, 500], [1055, 535], [930, 535]], faintGreen, 4);
-  dotGrid(ctx, 1095, 560, 4, 3, 16, 3.5, 'rgba(214,177,91,0.45)');
+  routePath(ctx, [[1240, 500], [1090, 500], [1055, 535], [930, 535]], faint, 4);
+  dotGrid(ctx, 1095, 560, 4, 3, 16, 3.5, 'rgba(214,177,91,0.4)');
+}
 
-  // --- logo lockup (top-right, green-on-transparent) — the single logo ---
+// Draws the cream/gold logo lockup with its top-right corner at (right, top),
+// scaled to the given height. Returns the drawn width (0 if missing).
+async function drawLockup(ctx, right, top, height) {
+  if (!fs.existsSync(LOGO_LOCKUP)) return 0;
+  try {
+    const logo = await loadImage(LOGO_LOCKUP);
+    const w = (logo.width / logo.height) * height;
+    ctx.drawImage(logo, right - w, top, w, height);
+    return w;
+  } catch (e) {
+    return 0;
+  }
+}
+
+// Bottom-left footer: a stone globe disc + the site domain (LTR).
+function drawFooter(ctx) {
+  const gcx = 96;
+  const gcy = HEIGHT - 70;
+  ctx.save();
+  ctx.fillStyle = SURFACE_2;
+  ctx.beginPath();
+  ctx.arc(gcx, gcy, 24, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.strokeStyle = GOLD;
+  ctx.lineWidth = 2.2;
+  ctx.beginPath();
+  ctx.arc(gcx, gcy, 14, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.ellipse(gcx, gcy, 6, 14, 0, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(gcx - 14, gcy);
+  ctx.lineTo(gcx + 14, gcy);
+  ctx.stroke();
+  ctx.restore();
+
+  ctx.direction = 'ltr';
+  ctx.textAlign = 'left';
+  ctx.fillStyle = MUTED;
+  ctx.font = `30px ${STACK_MED}`;
+  ctx.fillText(SITE, gcx + 38, gcy + 10);
+}
+
+// Brand hero used for the site root: centered logo lockup + tagline.
+async function renderHome(ctx) {
+  // Centered logo lockup (includes the brand tagline beneath the wordmark).
   if (fs.existsSync(LOGO_LOCKUP)) {
     try {
       const logo = await loadImage(LOGO_LOCKUP);
-      const h = 96;
+      const h = 188;
       const w = (logo.width / logo.height) * h;
-      ctx.drawImage(logo, WIDTH - 72 - w, 60, w, h);
+      ctx.drawImage(logo, (WIDTH - w) / 2, 150, w, h);
     } catch (e) {
       /* non-fatal */
     }
   }
 
-  const rightEdge = 1128; // page right margin for logo / pill / divider
-  const titleRight = 1128; // title right-aligns to the margin (no mark on the right now)
+  // Gold accent rule with terminal dots, centered under the lockup.
+  const ay = 396;
+  ctx.save();
+  ctx.strokeStyle = GOLD;
+  ctx.lineWidth = 4;
+  ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.moveTo(WIDTH / 2 - 90, ay);
+  ctx.lineTo(WIDTH / 2 + 90, ay);
+  ctx.stroke();
+  ctx.fillStyle = GOLD;
+  [-90, 90].forEach((dx) => {
+    ctx.beginPath();
+    ctx.arc(WIDTH / 2 + dx, ay, 6, 0, Math.PI * 2);
+    ctx.fill();
+  });
+  ctx.restore();
 
-  // --- gold category pill (right-aligned) ---
+  // Descriptive subtitle, centered.
+  ctx.direction = 'rtl';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = INK_SOFT;
+  ctx.font = `36px ${STACK_MED}`;
+  ctx.fillText(TAGLINE, WIDTH / 2, 470);
+
+  drawFooter(ctx);
+}
+
+// Standard per-page layout: logo (top-right), category pill, wrapped title.
+async function renderPage(ctx, title, eyebrow) {
+  await drawLockup(ctx, 1128, 60, 92);
+
+  const rightEdge = 1128;
+  const titleRight = 1128;
+
+  // --- category pill (right-aligned) — subtle stone surface, gold glyph ---
   ctx.direction = 'rtl';
   ctx.textAlign = 'right';
   ctx.textBaseline = 'alphabetic';
@@ -176,7 +240,9 @@ async function renderOgImage(title, opts = {}) {
   const pillX = rightEdge - pillW;
   const r = pillH / 2;
   ctx.save();
-  ctx.fillStyle = GOLD;
+  ctx.fillStyle = SURFACE_2;
+  ctx.strokeStyle = BORDER;
+  ctx.lineWidth = 1.5;
   ctx.beginPath();
   ctx.moveTo(pillX + r, pillY);
   ctx.arcTo(pillX + pillW, pillY, pillX + pillW, pillY + pillH, r);
@@ -184,12 +250,13 @@ async function renderOgImage(title, opts = {}) {
   ctx.arcTo(pillX, pillY + pillH, pillX, pillY, r);
   ctx.arcTo(pillX, pillY, pillX + pillW, pillY, r);
   ctx.fill();
+  ctx.stroke();
   ctx.restore();
-  ctx.fillStyle = GREEN;
+  ctx.fillStyle = INK;
   ctx.fillText(pillText, rightEdge - padX, pillY + pillH / 2 + 10);
-  // ascending bar-chart glyph at the leading (left) side inside the pill
+  // ascending bar-chart glyph (gold) at the leading (left) side of the pill
   ctx.save();
-  ctx.fillStyle = GREEN;
+  ctx.fillStyle = GOLD;
   const bx = pillX + padX - 2;
   const bb = pillY + pillH - 18;
   [10, 17, 24].forEach((bh, i) => {
@@ -199,7 +266,7 @@ async function renderOgImage(title, opts = {}) {
 
   // thin divider under the pill
   ctx.save();
-  ctx.strokeStyle = 'rgba(14,59,56,0.18)';
+  ctx.strokeStyle = 'rgba(245,245,244,0.14)';
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.moveTo(rightEdge, pillY + pillH + 26);
@@ -222,7 +289,7 @@ async function renderOgImage(title, opts = {}) {
   }
   if (lines.length > 4) lines = lines.slice(0, 4);
   ctx.font = `${fontSize}px ${STACK_BOLD}`;
-  ctx.fillStyle = GREEN;
+  ctx.fillStyle = INK;
   const lineHeight = fontSize * 1.3;
   const blockH = lines.length * lineHeight;
   let y = bandTop + fontSize + Math.max(0, (bandH - blockH) / 2);
@@ -247,33 +314,21 @@ async function renderOgImage(title, opts = {}) {
   ctx.fill();
   ctx.restore();
 
-  // --- footer: globe disc + domain (bottom-left, LTR) ---
-  const gcx = 96;
-  const gcy = HEIGHT - 70;
-  ctx.save();
-  ctx.fillStyle = GREEN;
-  ctx.beginPath();
-  ctx.arc(gcx, gcy, 24, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.strokeStyle = CREAM;
-  ctx.lineWidth = 2.2;
-  ctx.beginPath();
-  ctx.arc(gcx, gcy, 14, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.beginPath();
-  ctx.ellipse(gcx, gcy, 6, 14, 0, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.beginPath();
-  ctx.moveTo(gcx - 14, gcy);
-  ctx.lineTo(gcx + 14, gcy);
-  ctx.stroke();
-  ctx.restore();
+  drawFooter(ctx);
+}
 
-  ctx.direction = 'ltr';
-  ctx.textAlign = 'left';
-  ctx.fillStyle = GREEN;
-  ctx.font = `30px ${STACK_MED}`;
-  ctx.fillText(SITE, gcx + 38, gcy + 10);
+async function renderOgImage(title, opts = {}) {
+  registerFonts();
+  const canvas = createCanvas(WIDTH, HEIGHT);
+  const ctx = canvas.getContext('2d');
+
+  paintBackground(ctx);
+
+  if (opts.variant === 'home') {
+    await renderHome(ctx);
+  } else {
+    await renderPage(ctx, title, opts.eyebrow || 'دليل التخصصات');
+  }
 
   return canvas.encode('png');
 }
