@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-  /* Neutral primary scale — warm stone tones, no chromatic color */
-  --ifm-color-primary: #292524;
-  --ifm-color-primary-dark: #1c1917;
-  --ifm-color-primary-darker: #171413;
-  --ifm-color-primary-darkest: #0c0a09;
-  --ifm-color-primary-light: #44403c;
-  --ifm-color-primary-lighter: #57534e;
-  --ifm-color-primary-lightest: #78716c;
+  /* Brand primary scale — deep "تخصصات الحاسب" green */
+  --ifm-color-primary: #0e3b38;
+  --ifm-color-primary-dark: #0b2f2c;
+  --ifm-color-primary-darker: #082523;
+  --ifm-color-primary-darkest: #051615;
+  --ifm-color-primary-light: #145b5d;
+  --ifm-color-primary-lighter: #1b6f6c;
+  --ifm-color-primary-lightest: #2a8c88;
+
+  /* Brand accent — gold */
+  --site-gold: #d6b15b;
+  --site-gold-strong: #b98e2e;
+  --ifm-navbar-background-color: #fbf7f0;
 
   /* Emphasis scale — warm stone instead of Infima's cool grays.
      Infima flips this scale automatically in dark mode (emphasis-100 becomes a
@@ -26,10 +31,10 @@
   --ifm-color-emphasis-900: #1c1917;
   --ifm-color-emphasis-1000: #0c0a09;
 
-  /* Surfaces */
-  --ifm-background-color: #fafaf9;
+  /* Surfaces — warm cream */
+  --ifm-background-color: #fbf7f0;
   --ifm-background-surface-color: #ffffff;
-  --ifm-footer-background-color: #f5f5f4;
+  --ifm-footer-background-color: #f3ede1;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
@@ -62,8 +67,8 @@
     0 6px 16px rgba(28, 25, 23, 0.08),
     0 16px 36px rgba(28, 25, 23, 0.08),
     0 32px 64px rgba(28, 25, 23, 0.06);
-  --site-accent-soft: #f5f5f4;
-  --site-text-muted: #78716c;
+  --site-accent-soft: #f4ecdd;
+  --site-text-muted: #5c6b66;
   --site-card-radius: 1rem;
   --site-glass-blur: saturate(180%) blur(20px);
 }
@@ -72,14 +77,18 @@
    html[data-theme='dark'], which outranks a bare [data-theme='dark'] —
    without it these tokens silently lose to Infima's cool-gray defaults. */
 html[data-theme='dark'] {
-  /* Neutral primary scale — light stone tones */
-  --ifm-color-primary: #e7e5e4;
-  --ifm-color-primary-dark: #d6d3d1;
-  --ifm-color-primary-darker: #a8a29e;
-  --ifm-color-primary-darkest: #78716c;
-  --ifm-color-primary-light: #f5f5f4;
-  --ifm-color-primary-lighter: #fafaf9;
-  --ifm-color-primary-lightest: #ffffff;
+  /* Brand primary scale (dark) — light teal for links/accents on deep green */
+  --ifm-color-primary: #8de8dd;
+  --ifm-color-primary-dark: #6fd8cc;
+  --ifm-color-primary-darker: #57c9bc;
+  --ifm-color-primary-darkest: #38a99c;
+  --ifm-color-primary-light: #b9fff7;
+  --ifm-color-primary-lighter: #cffff9;
+  --ifm-color-primary-lightest: #e6fffc;
+
+  --site-gold: #e3c574;
+  --site-gold-strong: #d6b15b;
+  --ifm-navbar-background-color: #0e3b38;
 
   /* Emphasis scale — flipped warm stone (mirrors Infima's dark-mode flip) */
   --ifm-color-emphasis-0: #0c0a09;
@@ -94,16 +103,16 @@ html[data-theme='dark'] {
   --ifm-color-emphasis-900: #f5f5f4;
   --ifm-color-emphasis-1000: #ffffff;
 
-  /* Surfaces */
-  --ifm-background-color: #0c0a09;
-  --ifm-background-surface-color: #1c1917;
-  --ifm-footer-background-color: #0c0a09;
+  /* Surfaces — deep brand green (reads clearly green, not black) */
+  --ifm-background-color: #0a2926;
+  --ifm-background-surface-color: #0e3b38;
+  --ifm-footer-background-color: #082220;
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
 
-  --site-card-bg: rgba(28, 25, 23, 0.72);
-  --site-card-bg-solid: #1c1917;
-  --site-card-border: rgba(68, 64, 60, 0.4);
+  --site-card-bg: rgba(15, 64, 60, 0.66);
+  --site-card-bg-solid: #0e3b38;
+  --site-card-border: rgba(141, 232, 221, 0.18);
   --site-soft-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.3);
   --site-float-shadow:
     0 1px 2px rgba(0, 0, 0, 0.5),
@@ -115,8 +124,8 @@ html[data-theme='dark'] {
     0 8px 22px rgba(0, 0, 0, 0.45),
     0 24px 56px rgba(0, 0, 0, 0.45),
     0 40px 80px rgba(0, 0, 0, 0.35);
-  --site-accent-soft: #292524;
-  --site-text-muted: #a8a29e;
+  --site-accent-soft: #0e3331;
+  --site-text-muted: #a8c7c4;
 }
 
 html,

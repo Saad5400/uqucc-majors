@@ -91,8 +91,14 @@ module.exports = function ogImagePlugin() {
         const fileName = `${hash}.png`;
         const outPath = path.join(ogDir, fileName);
 
+        // Category pill text, derived from the section of the canonical URL.
+        let eyebrow = 'دليل التخصصات';
+        if (/\/blog(\/|$)/.test(canonical)) eyebrow = 'تجارب الطلاب';
+        else if (/\/(compare|comparison|مقارن)/.test(canonical)) eyebrow = 'مقارنات التخصصات';
+        else if (canonical.replace(SITE_URL, '').replace(/\/$/, '') === '') eyebrow = 'دليل تخصصات الحاسب';
+
         if (!fs.existsSync(outPath)) {
-          const buf = await renderOgImage(imageTitle);
+          const buf = await renderOgImage(imageTitle, { eyebrow });
           fs.writeFileSync(outPath, buf);
         }
         generated++;
