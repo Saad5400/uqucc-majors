@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'تخصصات الحاسب',
   tagline: 'تعرف على تخصصات الحاسب',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://uqucc-majors.sb.sa',
@@ -32,7 +32,37 @@ const config: Config = {
     locales: ['ar'],
   },
 
+  headTags: [
+    // Favicon set
+    {
+      tagName: 'link',
+      attributes: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/img/favicon-32x32.png' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/img/favicon-16x16.png' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'manifest', href: '/site.webmanifest' },
+    },
+    {
+      tagName: 'meta',
+      attributes: { name: 'theme-color', content: '#0a0a23' },
+    },
+  ],
+
   themeConfig: {
+    image: 'img/og-default.png',
+    metadata: [
+      { name: 'twitter:image', content: 'https://uqucc-majors.sb.sa/img/og-default.png' },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+    ],
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
@@ -95,6 +125,11 @@ const config: Config = {
       ],
     },
   },
+
+  plugins: [
+    // Generates per-page dynamic Open Graph images (1200x630) + JSON-LD.
+    require.resolve('./plugins/og-image'),
+  ],
 
   presets: [
     [
