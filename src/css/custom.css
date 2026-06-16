@@ -594,6 +594,14 @@ button[class*="searchClearButton"] {
   }
 }
 
+@media (min-width: 997px) {
+  .navbar__logo img {
+    height: 50px !important;
+    width: auto !important;
+    max-width: none;
+  }
+}
+
 .custom-search-wrapper {
   position: relative;
   display: flex;
