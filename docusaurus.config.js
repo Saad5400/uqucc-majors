@@ -1,0 +1,177 @@
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const config = {
+    title: 'تخصصات الحاسب',
+    tagline: 'تعرف على تخصصات الحاسب',
+    favicon: 'img/favicon.ico',
+    // Set the production url of your site here
+    url: 'https://uqucc-majors.sb.sa',
+    // Set the /<baseUrl>/ pathname under which your site is served
+    // For GitHub pages deployment, it is often '/<projectName>/'
+    baseUrl: '/',
+    trailingSlash: false,
+    // GitHub pages deployment config.
+    // If you aren't using GitHub pages, you don't need these.
+    organizationName: 'Saad5400', // Usually your GitHub org/user name.
+    projectName: 'uqucc-majors', // Usually your repo name.
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
+    // Even if you don't use internationalization, you can use this field to set
+    // useful metadata like html lang. For example, if your site is Chinese, you
+    // may want to replace "en" with "zh-Hans".
+    i18n: {
+        defaultLocale: 'ar',
+        locales: ['ar'],
+    },
+    headTags: [
+        // Favicon set
+        {
+            tagName: 'link',
+            attributes: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/img/favicon-32x32.png' },
+        },
+        {
+            tagName: 'link',
+            attributes: { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/img/favicon-16x16.png' },
+        },
+        {
+            tagName: 'link',
+            attributes: { rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png' },
+        },
+        {
+            tagName: 'link',
+            attributes: { rel: 'manifest', href: '/site.webmanifest' },
+        },
+        {
+            tagName: 'meta',
+            attributes: { name: 'theme-color', content: '#0E3B38' },
+        },
+    ],
+    themeConfig: {
+        image: 'img/og-default.png',
+        metadata: [
+            { name: 'twitter:image', content: 'https://uqucc-majors.sb.sa/img/og-default.png' },
+            { property: 'og:image:width', content: '1200' },
+            { property: 'og:image:height', content: '630' },
+        ],
+        colorMode: {
+            defaultMode: 'dark',
+            disableSwitch: true,
+            respectPrefersColorScheme: false,
+        },
+        navbar: {
+            title: '',
+            logo: {
+                alt: 'تخصصات الحاسب',
+                src: 'img/logo.png',
+                href: '/',
+                height: 32,
+            },
+            items: [
+                {
+                    to: '/',
+                    label: 'الرئيسية',
+                    position: 'right',
+                },
+                {
+                    to: '/#majors',
+                    label: 'استكشف التخصصات',
+                    position: 'right',
+                },
+                {
+                    to: '/blog',
+                    label: 'تجارب الطلاب',
+                    position: 'right',
+                },
+                {
+                    to: '/contribute',
+                    label: 'ساهم معنا',
+                    position: 'right',
+                },
+            ],
+        },
+        blog: {
+            sidebar: {
+                groupByYear: false,
+            },
+        },
+        footer: {
+            copyright: `© ${new Date().getFullYear()} حملة اختيار التخصص — جميع الحقوق محفوظة`,
+            style: 'light',
+            links: [
+                {
+                    title: 'روابط عامة',
+                    items: [
+                        { label: 'الرئيسية', to: '/' },
+                        { label: 'تجارب الطلاب', to: '/blog' },
+                        { label: 'كنز طلاب الحاسب', to: '/blog/other/students-kit' },
+                    ],
+                },
+                {
+                    title: 'المساهمة',
+                    items: [
+                        { label: 'المساهمون', to: '/contributors' },
+                        { label: 'دليل المساهمة', to: '/contribute' },
+                    ],
+                },
+            ],
+        },
+    },
+    clientModules: [
+        // Clears stale light-mode preferences from localStorage and forces dark.
+        require.resolve('./src/clientModules/forceDarkMode.ts'),
+    ],
+    plugins: [
+        // Generates per-page dynamic Open Graph images (1200x630) + JSON-LD.
+        require.resolve('./plugins/og-image'),
+    ],
+    presets: [
+        [
+            'classic',
+            {
+                docs: {
+                    sidebarPath: './sidebars.ts',
+                    editUrl: 'https://github.com/Saad5400/uqucc-majors/tree/main/',
+                    routeBasePath: '/',
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true,
+                },
+                blog: {
+                    showReadingTime: true,
+                    feedOptions: {
+                        type: ['rss', 'atom', 'json'],
+                        xslt: true,
+                    },
+                    postsPerPage: 'ALL',
+                    editUrl: 'https://github.com/Saad5400/uqucc-majors/tree/main/',
+                    onInlineTags: 'warn',
+                    onInlineAuthors: 'ignore',
+                    onUntruncatedBlogPosts: 'warn',
+                    blogSidebarTitle: 'آخر المقالات',
+                    blogSidebarCount: 'ALL',
+                },
+                theme: {
+                    customCss: './src/css/custom.css',
+                },
+                gtag: {
+                    trackingID: 'G-Q3PPGDZQP1',
+                    anonymizeIP: true,
+                }
+            },
+        ],
+    ],
+    markdown: {
+        mermaid: true,
+    },
+    themes: [
+        '@docusaurus/theme-mermaid',
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+            ({
+                docsRouteBasePath: '/',
+                hashed: true,
+                language: ["en", "ar"],
+            }),
+        ],
+    ],
+};
+export default config;

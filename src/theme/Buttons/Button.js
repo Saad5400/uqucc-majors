@@ -1,0 +1,43 @@
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+export default function Button({ size = 'large', outline = false, variant = 'link', block = true, disabled = false, className, style, link, label, imageSrc, }) {
+    const sizeMap = { sm: 'sm', small: 'sm', lg: 'lg', large: 'lg', medium: null };
+    const buttonSize = size ? sizeMap[size] : '';
+    const sizeClass = buttonSize ? `button--${buttonSize}` : '';
+    const outlineClass = outline ? 'button--outline' : '';
+    const variantClass = variant ? `button--${variant}` : '';
+    const blockClass = block ? 'button--block' : '';
+    const disabledClass = disabled ? 'disabled' : '';
+    const destination = disabled ? null : link;
+    // If an imageSrc is provided, layer a black overlay of alpha=dimming on top of it
+    const backgroundStyle = imageSrc
+        ? {
+            backgroundImage: `url(${imageSrc})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+        }
+        : {};
+    return (<div className='image-button' style={{
+            border: '1px solid var(--ifm-color-emphasis-200)',
+            borderRadius: '0.5rem',
+            overflow: 'hidden',
+            background: 'var(--ifm-background-surface-color)',
+        }}>
+            <Link to={destination}>
+                <button className={clsx('button', sizeClass, outlineClass, variantClass, blockClass, disabledClass, className)} style={{ height: '10rem', ...backgroundStyle, ...style }} role="button" aria-disabled={disabled}>
+                </button>
+            </Link>
+            <Link to={destination} className='image-button-label' style={{
+            color: 'var(--ifm-color-emphasis-900)',
+            width: '100%',
+            textAlign: 'center',
+            padding: '0.6rem',
+            display: 'block',
+            fontWeight: 600,
+            borderTop: '1px solid var(--ifm-color-emphasis-200)',
+        }}>
+                {label}
+            </Link>
+        </div>);
+}
