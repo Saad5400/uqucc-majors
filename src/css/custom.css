@@ -596,7 +596,7 @@ button[class*="searchClearButton"] {
 
 @media (min-width: 997px) {
   .navbar__logo img {
-    height: 50px !important;
+    height: 42px !important;
     width: auto !important;
     max-width: none;
   }
