@@ -127,6 +127,11 @@ const config: Config = {
     },
   },
 
+  clientModules: [
+    // Clears stale light-mode preferences from localStorage and forces dark.
+    require.resolve('./src/clientModules/forceDarkMode.ts'),
+  ],
+
   plugins: [
     // Generates per-page dynamic Open Graph images (1200x630) + JSON-LD.
     require.resolve('./plugins/og-image'),
