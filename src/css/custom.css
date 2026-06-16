@@ -573,6 +573,12 @@ button[class*="searchClearButton"] {
     align-items: center;
     width: 100%;
   }
+
+  .navbar__logo img {
+    height: 44px;
+    width: auto;
+    max-height: 52px;
+  }
   
   .navbar__items {
     flex: 0 0 auto; /* Logo naturally hugs the start edge (Right in RTL) */
