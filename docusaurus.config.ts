@@ -54,6 +54,15 @@ const config: Config = {
       tagName: 'meta',
       attributes: { name: 'theme-color', content: '#0E3B38' },
     },
+    // Analytics (self-hosted Umami, cookieless)
+    {
+      tagName: 'script',
+      attributes: {
+        defer: 'true',
+        src: 'https://analytics.sb.sa/script.js',
+        'data-website-id': 'fd646726-8799-4e6b-b6e3-35919fc75769',
+      },
+    },
   ],
 
   themeConfig: {
